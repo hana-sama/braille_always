@@ -146,6 +146,15 @@ async function handleChord(dots) {
         stateMachine.processIndicator(matchResult.indicator);
         return;
     }
+    if (matchResult.type === "matched_with_leftover") {
+        // Indicator matched after deferred disambiguation, with leftover cells
+        stateMachine.processIndicator(matchResult.indicator);
+        // Process leftover cells as characters
+        for (const cellKey of matchResult.leftoverCells) {
+            await processCharacter(cellKey);
+        }
+        return;
+    }
     if (matchResult.type === "pending") {
         // Partial indicator match → wait for next chord
         return;
@@ -162,11 +171,19 @@ async function processCharacter(dotsKey) {
     const mode = stateMachine.getMode();
     const mapping = dotMapper.lookup(dotsKey, mode);
     if (mapping) {
-        await editorOutput.insert(mapping.print);
+        let text = mapping.print;
+        // Apply pending modifier (e.g., capital letter indicator)
+        const modifier = stateMachine.consumeModifier();
+        if (modifier === "capital") {
+            text = text.toUpperCase();
+        }
+        await editorOutput.insert(text);
         stateMachine.onCharacterEmitted();
     }
     else {
         // No mapping found — insert Unicode braille as fallback
+        // Clear any pending modifier since we can't apply it
+        stateMachine.consumeModifier();
         const braille = dotMapper.dotsKeyToUnicodeBraille(dotsKey);
         await editorOutput.insert(braille);
         stateMachine.onCharacterEmitted();

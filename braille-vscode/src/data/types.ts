@@ -8,6 +8,12 @@ export type Mode = "grade1" | "kana" | "grade2" | "nemeth";
 /** Scope of an indicator (how much text it affects) */
 export type IndicatorScope = "symbol" | "word" | "passage";
 
+/** Whether the indicator switches mode or modifies the next character(s) */
+export type IndicatorType = "mode_switch" | "modifier";
+
+/** Kind of modifier (for modifier-type indicators) */
+export type ModifierKind = "capital" | "numeric" | "typeform";
+
 /** Dot input: 0=space, 1-6=dots */
 export type DotNumber = 0 | 1 | 2 | 3 | 4 | 5 | 6;
 
@@ -65,6 +71,8 @@ export interface IndicatorDef {
   action: "enter" | "exit";
   targetMode: Mode;
   scope: IndicatorScope;
+  indicatorType: IndicatorType;
+  modifier?: ModifierKind;
   tags: string[];
 }
 

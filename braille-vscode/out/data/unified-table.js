@@ -4,19 +4,33 @@
 // ============================================================
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.buildUnifiedData = buildUnifiedData;
-/** Maps a system_id to a Mode */
-function systemIdToMode(systemId, brailleType) {
+/** Subcategories that are modifiers (not mode switches) */
+const MODIFIER_SUBCATEGORIES = {
+    capital: "capital",
+    numeric: "numeric",
+    italic: "typeform",
+    bold: "typeform",
+    underline: "typeform",
+    script: "typeform"
+};
+/** Maps a system_id to one or more Modes */
+function systemIdToModes(systemId, brailleType) {
     if (systemId === "kana") {
-        return "kana";
+        return ["kana"];
     }
     if (systemId === "nemeth") {
-        return "nemeth";
+        return ["nemeth"];
     }
-    // UEB: distinguish grade1 vs grade2 by braille_type
-    if (brailleType.includes("grade2")) {
-        return "grade2";
+    // UEB: check if braille_type covers both grades
+    const hasGrade1 = brailleType.includes("grade1");
+    const hasGrade2 = brailleType.includes("grade2");
+    if (hasGrade1 && hasGrade2) {
+        return ["grade1", "grade2"];
     }
-    return "grade1";
+    if (hasGrade2) {
+        return ["grade2"];
+    }
+    return ["grade1"];
 }
 /** Normalize dots array to a canonical key: ["1", "2"] → "12", ["14"] → "14" */
 function dotsToKey(dots) {
@@ -36,19 +50,23 @@ function buildUnifiedData(allProfiles) {
     const multiCellEntries = [];
     for (const [systemId, profiles] of allProfiles) {
         for (const profile of profiles) {
-            const mode = systemIdToMode(systemId, profile.braille_type);
+            const modes = systemIdToModes(systemId, profile.braille_type);
             for (const entry of profile.entries) {
                 if (entry.role === "indicator" || entry.category === "indicator") {
                     // Process as indicator
                     processIndicator(entry, indicators);
                 }
                 else if (entry.dots.length === 1) {
-                    // Single-cell entry → unified map
-                    processSingleCell(entry, mode, singleCellMap);
+                    // Single-cell entry → unified map (register under all applicable modes)
+                    for (const mode of modes) {
+                        processSingleCell(entry, mode, singleCellMap);
+                    }
                 }
                 else if (entry.dots.length > 1 && entry.print) {
-                    // Multi-cell entry
-                    processMultiCell(entry, mode, multiCellEntries);
+                    // Multi-cell entry (register under all applicable modes)
+                    for (const mode of modes) {
+                        processMultiCell(entry, mode, multiCellEntries);
+                    }
                 }
             }
         }
@@ -78,13 +96,17 @@ function processSingleCell(entry, mode, map) {
 function processIndicator(entry, indicators) {
     const isTerminator = entry.tags.includes("terminator") || entry.id.includes("terminator");
     const action = isTerminator ? "exit" : "enter";
-    // Determine target mode from tags/subcategory
+    // Classify indicator type: modifier vs mode_switch
+    const modifierKind = MODIFIER_SUBCATEGORIES[entry.subcategory];
+    const indicatorType = modifierKind
+        ? "modifier"
+        : "mode_switch";
+    // Determine target mode from tags/subcategory (only relevant for mode_switch)
     let targetMode = "grade1";
     if (entry.tags.includes("kana") || entry.subcategory === "kana") {
         targetMode = "kana";
     }
     else if (entry.tags.includes("grade1") || entry.subcategory === "grade1") {
-        // grade1 indicator means "switch TO grade1" (from grade2 context)
         targetMode = "grade1";
     }
     else if (entry.subcategory === "nemeth" || entry.tags.includes("nemeth")) {
@@ -105,6 +127,8 @@ function processIndicator(entry, indicators) {
         action,
         targetMode,
         scope,
+        indicatorType,
+        modifier: modifierKind,
         tags: entry.tags
     });
 }

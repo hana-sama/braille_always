@@ -6,7 +6,7 @@ import {
   Mode,
   IndicatorDef,
   IndicatorScope,
-  TransitionRule
+  ModifierKind
 } from "../data/types";
 
 export type ModeChangeCallback = (
@@ -24,6 +24,7 @@ export class StateMachine {
   private modeStack: Mode[] = []; // For nested mode switches
   private activeScope: IndicatorScope | null = null;
   private symbolCount: number = 0; // Track symbols entered in current mode
+  private pendingModifier: ModifierKind | null = null;
   private onModeChange: ModeChangeCallback | null = null;
 
   constructor(initialMode: Mode = "grade1") {
@@ -50,11 +51,39 @@ export class StateMachine {
    * Returns true if a mode transition occurred.
    */
   processIndicator(indicator: IndicatorDef): boolean {
+    // Modifier indicators (capital, numeric, typeform) don't switch modes
+    if (indicator.indicatorType === "modifier") {
+      if (indicator.action === "enter" && indicator.modifier) {
+        this.pendingModifier = indicator.modifier;
+      } else {
+        this.pendingModifier = null;
+      }
+      return true;
+    }
+
+    // Mode-switch indicators
     if (indicator.action === "enter") {
       return this.enterMode(indicator);
     } else {
       return this.exitMode(indicator);
     }
+  }
+
+  /**
+   * Consume and return the pending modifier (if any).
+   * Returns the modifier kind and clears it.
+   */
+  consumeModifier(): ModifierKind | null {
+    const mod = this.pendingModifier;
+    this.pendingModifier = null;
+    return mod;
+  }
+
+  /**
+   * Check if there is a pending modifier.
+   */
+  hasPendingModifier(): boolean {
+    return this.pendingModifier !== null;
   }
 
   /**
@@ -86,6 +115,7 @@ export class StateMachine {
     this.modeStack = [];
     this.activeScope = null;
     this.symbolCount = 0;
+    this.pendingModifier = null;
   }
 
   private enterMode(indicator: IndicatorDef): boolean {
@@ -135,6 +165,7 @@ export class StateMachine {
         action: "exit",
         targetMode: this.currentMode,
         scope: "symbol",
+        indicatorType: "mode_switch",
         tags: []
       });
     }

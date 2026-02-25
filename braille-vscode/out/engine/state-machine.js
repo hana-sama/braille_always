@@ -14,6 +14,7 @@ class StateMachine {
         this.modeStack = []; // For nested mode switches
         this.activeScope = null;
         this.symbolCount = 0; // Track symbols entered in current mode
+        this.pendingModifier = null;
         this.onModeChange = null;
         this.currentMode = initialMode;
     }
@@ -34,12 +35,38 @@ class StateMachine {
      * Returns true if a mode transition occurred.
      */
     processIndicator(indicator) {
+        // Modifier indicators (capital, numeric, typeform) don't switch modes
+        if (indicator.indicatorType === "modifier") {
+            if (indicator.action === "enter" && indicator.modifier) {
+                this.pendingModifier = indicator.modifier;
+            }
+            else {
+                this.pendingModifier = null;
+            }
+            return true;
+        }
+        // Mode-switch indicators
         if (indicator.action === "enter") {
             return this.enterMode(indicator);
         }
         else {
             return this.exitMode(indicator);
         }
+    }
+    /**
+     * Consume and return the pending modifier (if any).
+     * Returns the modifier kind and clears it.
+     */
+    consumeModifier() {
+        const mod = this.pendingModifier;
+        this.pendingModifier = null;
+        return mod;
+    }
+    /**
+     * Check if there is a pending modifier.
+     */
+    hasPendingModifier() {
+        return this.pendingModifier !== null;
     }
     /**
      * Called after each character is emitted.
@@ -68,6 +95,7 @@ class StateMachine {
         this.modeStack = [];
         this.activeScope = null;
         this.symbolCount = 0;
+        this.pendingModifier = null;
     }
     enterMode(indicator) {
         const oldMode = this.currentMode;
@@ -107,6 +135,7 @@ class StateMachine {
                 action: "exit",
                 targetMode: this.currentMode,
                 scope: "symbol",
+                indicatorType: "mode_switch",
                 tags: []
             });
         }
