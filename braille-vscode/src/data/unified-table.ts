@@ -59,6 +59,9 @@ export interface UnifiedData {
   /** Single-cell entries: dotsKey → UnifiedEntry */
   singleCellMap: Map<string, UnifiedEntry>;
 
+  /** Numeric entries: dotsKey → DotMapping (for digits after numeric indicator) */
+  numericMap: Map<string, DotMapping>;
+
   /** Indicator definitions */
   indicators: IndicatorDef[];
 
@@ -73,6 +76,7 @@ export function buildUnifiedData(
   allProfiles: Map<string, RawBrailleProfile[]>
 ): UnifiedData {
   const singleCellMap = new Map<string, UnifiedEntry>();
+  const numericMap = new Map<string, DotMapping>();
   const indicators: IndicatorDef[] = [];
   const multiCellEntries: MultiCellEntry[] = [];
 
@@ -89,6 +93,17 @@ export function buildUnifiedData(
           for (const mode of modes) {
             processSingleCell(entry, mode, singleCellMap);
           }
+          // Also register numbers in the numeric map
+          if (entry.role === "numbers" && entry.print) {
+            const key = dotsToKey(entry.dots);
+            if (!numericMap.has(key)) {
+              numericMap.set(key, {
+                print: entry.print,
+                role: entry.role,
+                id: entry.id
+              });
+            }
+          }
         } else if (entry.dots.length > 1 && entry.print) {
           // Multi-cell entry (register under all applicable modes)
           for (const mode of modes) {
@@ -99,7 +114,7 @@ export function buildUnifiedData(
     }
   }
 
-  return { singleCellMap, indicators, multiCellEntries };
+  return { singleCellMap, numericMap, indicators, multiCellEntries };
 }
 
 function processSingleCell(
@@ -123,9 +138,20 @@ function processSingleCell(
     map.set(key, unified);
   }
 
-  // Only set if not already defined (first definition wins per priority)
-  if (!unified.mappings[mode]) {
+  const existing = unified.mappings[mode];
+  if (!existing) {
+    // No existing mapping for this mode → set it
     unified.mappings[mode] = mapping;
+  } else {
+    // Conflict: same dots key + same mode.
+    // Paired punctuation (open/close roles like quotation marks)
+    // should override plain single-role entries (e.g., "?" vs """).
+    const newIsPaired = entry.role === "open" || entry.role === "close";
+    const existingIsPaired =
+      existing.role === "open" || existing.role === "close";
+    if (newIsPaired && !existingIsPaired) {
+      unified.mappings[mode] = mapping;
+    }
   }
 }
 

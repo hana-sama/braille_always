@@ -114,6 +114,31 @@ describe("buildUnifiedData()", () => {
       expect(entry!.mappings.grade1?.print).to.equal("a"); // first wins
     });
 
+    it("should override with open/close role when dots key conflicts", () => {
+      // Simulates the dots 236 conflict: "?" (punctuation) vs """ (open)
+      const profile = makeProfile("ueb", "grade1 and grade2", [
+        makeEntry({
+          id: "question",
+          dots: ["236"],
+          print: "?",
+          role: "punctuation"
+        }),
+        makeEntry({
+          id: "left_quote",
+          dots: ["236"],
+          print: "\u201c",
+          role: "open"
+        })
+      ]);
+
+      const data = buildUnifiedData(new Map([["ueb", [profile]]]));
+      const entry = data.singleCellMap.get("236");
+      expect(entry).to.not.be.undefined;
+      // Open role should win over punctuation
+      expect(entry!.mappings.grade1?.print).to.equal("\u201c");
+      expect(entry!.mappings.grade1?.role).to.equal("open");
+    });
+
     it("should normalize dots key order (sort digits)", () => {
       const profile = makeProfile("ueb", "grade1", [
         makeEntry({ id: "ueb_test", dots: ["42"], print: "x" }) // "42" → "24"
@@ -278,6 +303,7 @@ describe("buildUnifiedData()", () => {
     it("should handle empty profiles gracefully", () => {
       const data = buildUnifiedData(new Map());
       expect(data.singleCellMap.size).to.equal(0);
+      expect(data.numericMap.size).to.equal(0);
       expect(data.indicators).to.have.length(0);
       expect(data.multiCellEntries).to.have.length(0);
     });
@@ -286,6 +312,70 @@ describe("buildUnifiedData()", () => {
       const profile = makeProfile("ueb", "grade1", []);
       const data = buildUnifiedData(new Map([["ueb", [profile]]]));
       expect(data.singleCellMap.size).to.equal(0);
+    });
+  });
+
+  // ==================================================================
+  // Numeric map
+  // ==================================================================
+  describe("numeric map", () => {
+    it("should store entries with role 'numbers' in numericMap", () => {
+      const profile = makeProfile("ueb", "grade1", [
+        makeEntry({
+          id: "number_1",
+          dots: ["1"],
+          print: "1",
+          role: "numbers",
+          tags: ["numbers"]
+        })
+      ]);
+
+      const data = buildUnifiedData(new Map([["ueb", [profile]]]));
+      expect(data.numericMap.size).to.equal(1);
+      expect(data.numericMap.get("1")?.print).to.equal("1");
+      expect(data.numericMap.get("1")?.role).to.equal("numbers");
+    });
+
+    it("should not store non-number entries in numericMap", () => {
+      const profile = makeProfile("ueb", "grade1", [
+        makeEntry({
+          id: "letter_a",
+          dots: ["1"],
+          print: "a",
+          role: "letter"
+        })
+      ]);
+
+      const data = buildUnifiedData(new Map([["ueb", [profile]]]));
+      expect(data.numericMap.size).to.equal(0);
+    });
+
+    it("should allow same dots key in both singleCellMap and numericMap", () => {
+      const letterProfile = makeProfile("ueb", "grade1", [
+        makeEntry({
+          id: "letter_a",
+          dots: ["1"],
+          print: "a",
+          role: "letter"
+        })
+      ]);
+      const numberProfile = makeProfile("ueb", "grade1", [
+        makeEntry({
+          id: "number_1",
+          dots: ["1"],
+          print: "1",
+          role: "numbers",
+          tags: ["numbers"]
+        })
+      ]);
+
+      const data = buildUnifiedData(
+        new Map([["ueb", [letterProfile, numberProfile]]])
+      );
+      // Letter in singleCellMap
+      expect(data.singleCellMap.get("1")?.mappings.grade1?.print).to.equal("a");
+      // Number in numericMap
+      expect(data.numericMap.get("1")?.print).to.equal("1");
     });
   });
 });

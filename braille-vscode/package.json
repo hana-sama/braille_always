@@ -21,6 +21,10 @@
       {
         "command": "braille.dotInput",
         "title": "Braille: Dot Input"
+      },
+      {
+        "command": "braille.toggleOverlay",
+        "title": "Braille: Toggle Braille Overlay"
       }
     ],
     "keybindings": [
@@ -97,6 +101,11 @@
           "type": "number",
           "default": 50,
           "description": "Time window (ms) to detect simultaneous key presses"
+        },
+        "braille.showBrailleOverlay": {
+          "type": "boolean",
+          "default": true,
+          "description": "Show Unicode braille dots alongside print text as decorations"
         }
       }
     }

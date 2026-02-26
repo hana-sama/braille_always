@@ -56,7 +56,12 @@ describe("DotMapper", () => {
       for (const [dots, mappings] of entries) {
         singleCellMap.set(dots, { dots, mappings });
       }
-      return { singleCellMap, indicators: [], multiCellEntries: [] };
+      return {
+        singleCellMap,
+        numericMap: new Map(),
+        indicators: [],
+        multiCellEntries: []
+      };
     }
 
     it("should return null when no data is set", () => {
@@ -120,6 +125,49 @@ describe("DotMapper", () => {
       mapper.setData(data);
 
       expect(mapper.lookup("999", "grade1")).to.be.null;
+    });
+  });
+
+  // ==================================================================
+  // lookupNumeric()
+  // ==================================================================
+  describe("lookupNumeric()", () => {
+    it("should return null when no data is set", () => {
+      expect(mapper.lookupNumeric("1")).to.be.null;
+    });
+
+    it("should return the numeric mapping for a digit", () => {
+      const numericMap = new Map<string, DotMapping>();
+      numericMap.set("1", { print: "1", role: "numbers", id: "number_1" });
+      numericMap.set("12", { print: "2", role: "numbers", id: "number_2" });
+
+      const data: UnifiedData = {
+        singleCellMap: new Map(),
+        numericMap,
+        indicators: [],
+        multiCellEntries: []
+      };
+      mapper.setData(data);
+
+      const result = mapper.lookupNumeric("1");
+      expect(result).to.not.be.null;
+      expect(result!.print).to.equal("1");
+      expect(result!.id).to.equal("number_1");
+    });
+
+    it("should return null for a non-digit dots key", () => {
+      const numericMap = new Map<string, DotMapping>();
+      numericMap.set("1", { print: "1", role: "numbers", id: "number_1" });
+
+      const data: UnifiedData = {
+        singleCellMap: new Map(),
+        numericMap,
+        indicators: [],
+        multiCellEntries: []
+      };
+      mapper.setData(data);
+
+      expect(mapper.lookupNumeric("999")).to.be.null;
     });
   });
 

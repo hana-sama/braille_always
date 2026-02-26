@@ -44,6 +44,16 @@ class DotMapper {
         return entry.mappings[mode] || entry.mappings["grade1"] || null;
     }
     /**
+     * Look up a single-cell chord in the numeric map.
+     * Used after the numeric indicator to resolve digits.
+     */
+    lookupNumeric(dotsKey) {
+        if (!this.data) {
+            return null;
+        }
+        return this.data.numericMap.get(dotsKey) || null;
+    }
+    /**
      * Convert dots to a Unicode braille character (U+2800-U+28FF).
      * Used for braille preview display.
      */

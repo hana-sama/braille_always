@@ -46,6 +46,7 @@ function dotsToKey(dots) {
  */
 function buildUnifiedData(allProfiles) {
     const singleCellMap = new Map();
+    const numericMap = new Map();
     const indicators = [];
     const multiCellEntries = [];
     for (const [systemId, profiles] of allProfiles) {
@@ -61,6 +62,17 @@ function buildUnifiedData(allProfiles) {
                     for (const mode of modes) {
                         processSingleCell(entry, mode, singleCellMap);
                     }
+                    // Also register numbers in the numeric map
+                    if (entry.role === "numbers" && entry.print) {
+                        const key = dotsToKey(entry.dots);
+                        if (!numericMap.has(key)) {
+                            numericMap.set(key, {
+                                print: entry.print,
+                                role: entry.role,
+                                id: entry.id
+                            });
+                        }
+                    }
                 }
                 else if (entry.dots.length > 1 && entry.print) {
                     // Multi-cell entry (register under all applicable modes)
@@ -71,7 +83,7 @@ function buildUnifiedData(allProfiles) {
             }
         }
     }
-    return { singleCellMap, indicators, multiCellEntries };
+    return { singleCellMap, numericMap, indicators, multiCellEntries };
 }
 function processSingleCell(entry, mode, map) {
     if (!entry.print) {
@@ -88,9 +100,20 @@ function processSingleCell(entry, mode, map) {
         unified = { dots: key, mappings: {} };
         map.set(key, unified);
     }
-    // Only set if not already defined (first definition wins per priority)
-    if (!unified.mappings[mode]) {
+    const existing = unified.mappings[mode];
+    if (!existing) {
+        // No existing mapping for this mode → set it
         unified.mappings[mode] = mapping;
+    }
+    else {
+        // Conflict: same dots key + same mode.
+        // Paired punctuation (open/close roles like quotation marks)
+        // should override plain single-role entries (e.g., "?" vs """).
+        const newIsPaired = entry.role === "open" || entry.role === "close";
+        const existingIsPaired = existing.role === "open" || existing.role === "close";
+        if (newIsPaired && !existingIsPaired) {
+            unified.mappings[mode] = mapping;
+        }
     }
 }
 function processIndicator(entry, indicators) {

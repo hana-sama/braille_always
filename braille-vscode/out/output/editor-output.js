@@ -40,17 +40,30 @@ exports.EditorOutput = void 0;
 const vscode = __importStar(require("vscode"));
 /**
  * Handles inserting braille-converted text into the active editor.
+ * Optionally records braille dot information for overlay display.
  */
 class EditorOutput {
+    constructor() {
+        this.tracker = null;
+    }
+    /**
+     * Set the braille tracker for recording dot information.
+     */
+    setTracker(tracker) {
+        this.tracker = tracker;
+    }
     /**
      * Insert text at the current cursor position in the active editor.
+     * If dotsKey is provided, records it in the tracker for overlay display.
      */
-    async insert(text) {
+    async insert(text, dotsKey) {
         const editor = vscode.window.activeTextEditor;
         if (!editor) {
             return false;
         }
-        return editor.edit(editBuilder => {
+        // Capture cursor position before insert for tracker
+        const position = editor.selection.active;
+        const result = await editor.edit(editBuilder => {
             editor.selections.forEach(selection => {
                 if (selection.isEmpty) {
                     editBuilder.insert(selection.active, text);
@@ -60,12 +73,23 @@ class EditorOutput {
                 }
             });
         });
+        // Record in tracker if dotsKey provided
+        if (result && this.tracker && dotsKey !== undefined) {
+            this.tracker.record(position.line, position.character, dotsKey);
+        }
+        return result;
     }
     /**
      * Insert a space character.
      */
     async insertSpace() {
-        return this.insert(" ");
+        const editor = vscode.window.activeTextEditor;
+        const position = editor?.selection.active;
+        const result = await this.insert(" ");
+        if (result && this.tracker && editor && position) {
+            this.tracker.recordSpace(position.line, position.character);
+        }
+        return result;
     }
     /**
      * Insert a newline.
