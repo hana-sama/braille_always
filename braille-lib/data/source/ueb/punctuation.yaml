@@ -73,6 +73,19 @@ entries:
     tags: ["punctuation", "question"]
     note: ""
 
+  - id: "punctuation_question_custom"
+    category: "punctuation"
+    subcategory: "basic"
+    print: "?"
+    dots: ["56", "236"]
+    context:
+      position: "after"
+      requires_indicator: true
+      priority: 100
+    role: "punctuation"
+    tags: ["punctuation", "question", "custom"]
+    note: ""
+
   - id: "punctuation_exclamation"
     category: "punctuation"
     subcategory: "basic"

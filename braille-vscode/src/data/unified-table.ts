@@ -144,12 +144,18 @@ function processSingleCell(
     unified.mappings[mode] = mapping;
   } else {
     // Conflict: same dots key + same mode.
-    // Paired punctuation (open/close roles like quotation marks)
-    // should override plain single-role entries (e.g., "?" vs """).
+    // Priority chain: open/close > punctuation > everything else.
+    // This ensures paired marks (quotation marks) win over plain punctuation,
+    // and plain punctuation wins over contractions (groupsigns/wordsigns/word).
     const newIsPaired = entry.role === "open" || entry.role === "close";
     const existingIsPaired =
       existing.role === "open" || existing.role === "close";
-    if (newIsPaired && !existingIsPaired) {
+    const newIsPunctuation = entry.role === "punctuation";
+    const existingIsPunctuation = existing.role === "punctuation";
+    if (
+      (newIsPaired && !existingIsPaired) ||
+      (newIsPunctuation && !existingIsPunctuation && !existingIsPaired)
+    ) {
       unified.mappings[mode] = mapping;
     }
   }

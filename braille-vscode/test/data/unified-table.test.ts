@@ -148,6 +148,62 @@ describe("buildUnifiedData()", () => {
       expect(data.singleCellMap.has("24")).to.be.true;
       expect(data.singleCellMap.has("42")).to.be.false;
     });
+
+    it("should override contraction with punctuation role when dots key conflicts", () => {
+      // Simulates dots 256 conflict: "dis" (groupsigns) vs "." (punctuation)
+      const profile = makeProfile("ueb", "grade1 and grade2", [
+        makeEntry({
+          id: "contraction_dis",
+          dots: ["256"],
+          print: "dis",
+          role: "groupsigns"
+        }),
+        makeEntry({
+          id: "period",
+          dots: ["256"],
+          print: ".",
+          role: "punctuation"
+        })
+      ]);
+
+      const data = buildUnifiedData(new Map([["ueb", [profile]]]));
+      const entry = data.singleCellMap.get("256");
+      expect(entry).to.not.be.undefined;
+      // Punctuation should win over contraction/groupsigns
+      expect(entry!.mappings.grade1?.print).to.equal(".");
+      expect(entry!.mappings.grade1?.role).to.equal("punctuation");
+    });
+
+    it("should let open/close override punctuation (highest priority)", () => {
+      // Simulates dots 236: contraction → punctuation → open (quotation)
+      const profile = makeProfile("ueb", "grade1 and grade2", [
+        makeEntry({
+          id: "contraction_his",
+          dots: ["236"],
+          print: "his",
+          role: "wordsigns"
+        }),
+        makeEntry({
+          id: "question",
+          dots: ["236"],
+          print: "?",
+          role: "punctuation"
+        }),
+        makeEntry({
+          id: "left_quote",
+          dots: ["236"],
+          print: "\u201c",
+          role: "open"
+        })
+      ]);
+
+      const data = buildUnifiedData(new Map([["ueb", [profile]]]));
+      const entry = data.singleCellMap.get("236");
+      expect(entry).to.not.be.undefined;
+      // Open role should win over both punctuation and contraction
+      expect(entry!.mappings.grade1?.print).to.equal("\u201c");
+      expect(entry!.mappings.grade1?.role).to.equal("open");
+    });
   });
 
   // ==================================================================

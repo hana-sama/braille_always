@@ -30,6 +30,7 @@ let unifiedData: UnifiedData;
 let brailleTracker: BrailleTracker;
 let brailleOverlay: BrailleOverlay;
 let isNumericMode = false; // Track numeric continuation
+let kanaBracketOpen = true; // Toggle for kana bracket「」(dots 36)
 
 export function activate(context: vscode.ExtensionContext) {
   console.log("[Braille] Extension activating...");
@@ -101,6 +102,7 @@ export function activate(context: vscode.ExtensionContext) {
         multiCellMatcher.reset();
         stateMachine.reset();
         isNumericMode = false;
+        kanaBracketOpen = true;
         brailleTracker.clear();
         updateOverlay();
         vscode.window.showInformationMessage("Braille Input: OFF");
@@ -331,6 +333,12 @@ async function processCharacter(dotsKey: string): Promise<void> {
 
   if (mapping) {
     let text = mapping.print;
+
+    // Kana bracket toggle: dots 36 alternates between「and」
+    if (mode === "kana" && dotsKey === "36") {
+      text = kanaBracketOpen ? "「" : "」";
+      kanaBracketOpen = !kanaBracketOpen;
+    }
 
     // Apply pending modifier (e.g., capital letter indicator)
     if (modifier === "capital") {

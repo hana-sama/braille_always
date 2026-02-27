@@ -112,6 +112,7 @@
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
+    "precompile": "rm -rf data && cp -r ../braille-lib/data/output data",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
     "lint": "eslint src",

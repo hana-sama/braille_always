@@ -11,20 +11,14 @@
       "category": "kana",
       "subcategory": "special",
       "print": "イェ",
-      "dots": [
-        "4",
-        "124"
-      ],
+      "dots": ["4", "124"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "non-Japanese letter",
-      "tags": [
-        "kana",
-        "non-Japanese"
-      ],
+      "tags": ["kana", "non-Japanese"],
       "note": "標準点字と同じ",
       "braille": "⠈⠋",
       "unicode": "U+2808 U+280B"
@@ -34,20 +28,14 @@
       "category": "kana",
       "subcategory": "special",
       "print": "キェ",
-      "dots": [
-        "4",
-        "1246"
-      ],
+      "dots": ["4", "1246"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "non-Japanese letter",
-      "tags": [
-        "kana",
-        "non-Japanese"
-      ],
+      "tags": ["kana", "non-Japanese"],
       "note": "標準点字と同じ",
       "braille": "⠈⠫",
       "unicode": "U+2808 U+282B"
@@ -57,20 +45,14 @@
       "category": "kana",
       "subcategory": "special",
       "print": "シェ",
-      "dots": [
-        "4",
-        "12456"
-      ],
+      "dots": ["4", "12456"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "non-Japanese letter",
-      "tags": [
-        "kana",
-        "non-Japanese"
-      ],
+      "tags": ["kana", "non-Japanese"],
       "note": "標準点字と同じ",
       "braille": "⠈⠻",
       "unicode": "U+2808 U+283B"
@@ -80,20 +62,14 @@
       "category": "kana",
       "subcategory": "special",
       "print": "ジェ",
-      "dots": [
-        "45",
-        "12456"
-      ],
+      "dots": ["45", "12456"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "non-Japanese letter",
-      "tags": [
-        "kana",
-        "non-Japanese"
-      ],
+      "tags": ["kana", "non-Japanese"],
       "note": "標準点字と同じ",
       "braille": "⠘⠻",
       "unicode": "U+2818 U+283B"
@@ -103,20 +79,14 @@
       "category": "kana",
       "subcategory": "special",
       "print": "チェ",
-      "dots": [
-        "4",
-        "12345"
-      ],
+      "dots": ["4", "12345"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "non-Japanese letter",
-      "tags": [
-        "kana",
-        "non-Japanese"
-      ],
+      "tags": ["kana", "non-Japanese"],
       "note": "標準点字と同じ",
       "braille": "⠈⠟",
       "unicode": "U+2808 U+281F"
@@ -126,20 +96,14 @@
       "category": "kana",
       "subcategory": "special",
       "print": "ニェ",
-      "dots": [
-        "4",
-        "1234"
-      ],
+      "dots": ["4", "1234"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "non-Japanese letter",
-      "tags": [
-        "kana",
-        "non-Japanese"
-      ],
+      "tags": ["kana", "non-Japanese"],
       "note": "標準点字と同じ",
       "braille": "⠈⠏",
       "unicode": "U+2808 U+280F"
@@ -149,20 +113,14 @@
       "category": "kana",
       "subcategory": "special",
       "print": "ヒェ",
-      "dots": [
-        "4",
-        "12346"
-      ],
+      "dots": ["4", "12346"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "non-Japanese letter",
-      "tags": [
-        "kana",
-        "non-Japanese"
-      ],
+      "tags": ["kana", "non-Japanese"],
       "note": "標準点字と同じ",
       "braille": "⠈⠯",
       "unicode": "U+2808 U+282F"
@@ -172,20 +130,14 @@
       "category": "kana",
       "subcategory": "special",
       "print": "ウィ",
-      "dots": [
-        "26",
-        "12"
-      ],
+      "dots": ["26", "12"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "non-Japanese letter",
-      "tags": [
-        "kana",
-        "non-Japanese"
-      ],
+      "tags": ["kana", "non-Japanese"],
       "note": "標準点字と同じ",
       "braille": "⠢⠃",
       "unicode": "U+2822 U+2803"
@@ -195,20 +147,14 @@
       "category": "kana",
       "subcategory": "special",
       "print": "ウェ",
-      "dots": [
-        "26",
-        "124"
-      ],
+      "dots": ["26", "124"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "non-Japanese letter",
-      "tags": [
-        "kana",
-        "non-Japanese"
-      ],
+      "tags": ["kana", "non-Japanese"],
       "note": "標準点字と同じ",
       "braille": "⠢⠋",
       "unicode": "U+2822 U+280B"
@@ -218,20 +164,14 @@
       "category": "kana",
       "subcategory": "special",
       "print": "ウォ",
-      "dots": [
-        "26",
-        "24"
-      ],
+      "dots": ["26", "24"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "non-Japanese letter",
-      "tags": [
-        "kana",
-        "non-Japanese"
-      ],
+      "tags": ["kana", "non-Japanese"],
       "note": "標準点字と同じ",
       "braille": "⠢⠊",
       "unicode": "U+2822 U+280A"
@@ -241,20 +181,14 @@
       "category": "kana",
       "subcategory": "special",
       "print": "クァ",
-      "dots": [
-        "26",
-        "16"
-      ],
+      "dots": ["26", "16"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "non-Japanese letter",
-      "tags": [
-        "kana",
-        "non-Japanese"
-      ],
+      "tags": ["kana", "non-Japanese"],
       "note": "標準点字と同じ",
       "braille": "⠢⠡",
       "unicode": "U+2822 U+2821"
@@ -264,20 +198,14 @@
       "category": "kana",
       "subcategory": "special",
       "print": "クィ",
-      "dots": [
-        "26",
-        "126"
-      ],
+      "dots": ["26", "126"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "non-Japanese letter",
-      "tags": [
-        "kana",
-        "non-Japanese"
-      ],
+      "tags": ["kana", "non-Japanese"],
       "note": "標準点字と同じ",
       "braille": "⠢⠣",
       "unicode": "U+2822 U+2823"
@@ -287,20 +215,14 @@
       "category": "kana",
       "subcategory": "special",
       "print": "クェ",
-      "dots": [
-        "26",
-        "1246"
-      ],
+      "dots": ["26", "1246"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "non-Japanese letter",
-      "tags": [
-        "kana",
-        "non-Japanese"
-      ],
+      "tags": ["kana", "non-Japanese"],
       "note": "標準点字と同じ",
       "braille": "⠢⠫",
       "unicode": "U+2822 U+282B"
@@ -310,20 +232,14 @@
       "category": "kana",
       "subcategory": "special",
       "print": "クォ",
-      "dots": [
-        "26",
-        "246"
-      ],
+      "dots": ["26", "246"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "non-Japanese letter",
-      "tags": [
-        "kana",
-        "non-Japanese"
-      ],
+      "tags": ["kana", "non-Japanese"],
       "note": "標準点字と同じ",
       "braille": "⠢⠪",
       "unicode": "U+2822 U+282A"
@@ -333,20 +249,14 @@
       "category": "kana",
       "subcategory": "special",
       "print": "ツァ",
-      "dots": [
-        "26",
-        "135"
-      ],
+      "dots": ["26", "135"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "non-Japanese letter",
-      "tags": [
-        "kana",
-        "non-Japanese"
-      ],
+      "tags": ["kana", "non-Japanese"],
       "note": "標準点字と同じ",
       "braille": "⠢⠕",
       "unicode": "U+2822 U+2815"
@@ -356,20 +266,14 @@
       "category": "kana",
       "subcategory": "special",
       "print": "ツィ",
-      "dots": [
-        "26",
-        "1235"
-      ],
+      "dots": ["26", "1235"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "non-Japanese letter",
-      "tags": [
-        "kana",
-        "non-Japanese"
-      ],
+      "tags": ["kana", "non-Japanese"],
       "note": "標準点字と同じ",
       "braille": "⠢⠗",
       "unicode": "U+2822 U+2817"
@@ -379,20 +283,14 @@
       "category": "kana",
       "subcategory": "special",
       "print": "ツェ",
-      "dots": [
-        "26",
-        "12345"
-      ],
+      "dots": ["26", "12345"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "non-Japanese letter",
-      "tags": [
-        "kana",
-        "non-Japanese"
-      ],
+      "tags": ["kana", "non-Japanese"],
       "note": "標準点字と同じ",
       "braille": "⠢⠟",
       "unicode": "U+2822 U+281F"
@@ -402,20 +300,14 @@
       "category": "kana",
       "subcategory": "special",
       "print": "ツォ",
-      "dots": [
-        "26",
-        "2345"
-      ],
+      "dots": ["26", "2345"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "non-Japanese letter",
-      "tags": [
-        "kana",
-        "non-Japanese"
-      ],
+      "tags": ["kana", "non-Japanese"],
       "note": "標準点字と同じ",
       "braille": "⠢⠞",
       "unicode": "U+2822 U+281E"
@@ -425,20 +317,14 @@
       "category": "kana",
       "subcategory": "special",
       "print": "ファ",
-      "dots": [
-        "26",
-        "136"
-      ],
+      "dots": ["26", "136"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "non-Japanese letter",
-      "tags": [
-        "kana",
-        "non-Japanese"
-      ],
+      "tags": ["kana", "non-Japanese"],
       "note": "標準点字と同じ",
       "braille": "⠢⠥",
       "unicode": "U+2822 U+2825"
@@ -448,20 +334,14 @@
       "category": "kana",
       "subcategory": "special",
       "print": "フィ",
-      "dots": [
-        "26",
-        "1236"
-      ],
+      "dots": ["26", "1236"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "non-Japanese letter",
-      "tags": [
-        "kana",
-        "non-Japanese"
-      ],
+      "tags": ["kana", "non-Japanese"],
       "note": "標準点字と同じ",
       "braille": "⠢⠧",
       "unicode": "U+2822 U+2827"
@@ -471,20 +351,14 @@
       "category": "kana",
       "subcategory": "special",
       "print": "フェ",
-      "dots": [
-        "26",
-        "12346"
-      ],
+      "dots": ["26", "12346"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "non-Japanese letter",
-      "tags": [
-        "kana",
-        "non-Japanese"
-      ],
+      "tags": ["kana", "non-Japanese"],
       "note": "標準点字と同じ",
       "braille": "⠢⠯",
       "unicode": "U+2822 U+282F"
@@ -494,20 +368,14 @@
       "category": "kana",
       "subcategory": "special",
       "print": "フォ",
-      "dots": [
-        "26",
-        "2346"
-      ],
+      "dots": ["26", "2346"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "non-Japanese letter",
-      "tags": [
-        "kana",
-        "non-Japanese"
-      ],
+      "tags": ["kana", "non-Japanese"],
       "note": "標準点字と同じ",
       "braille": "⠢⠮",
       "unicode": "U+2822 U+282E"
@@ -517,20 +385,14 @@
       "category": "kana",
       "subcategory": "special",
       "print": "グァ",
-      "dots": [
-        "256",
-        "16"
-      ],
+      "dots": ["256", "16"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "non-Japanese letter",
-      "tags": [
-        "kana",
-        "non-Japanese"
-      ],
+      "tags": ["kana", "non-Japanese"],
       "note": "標準点字と同じ",
       "braille": "⠲⠡",
       "unicode": "U+2832 U+2821"
@@ -540,20 +402,14 @@
       "category": "kana",
       "subcategory": "special",
       "print": "グィ",
-      "dots": [
-        "256",
-        "126"
-      ],
+      "dots": ["256", "126"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "non-Japanese letter",
-      "tags": [
-        "kana",
-        "non-Japanese"
-      ],
+      "tags": ["kana", "non-Japanese"],
       "note": "標準点字と同じ",
       "braille": "⠲⠣",
       "unicode": "U+2832 U+2823"
@@ -563,20 +419,14 @@
       "category": "kana",
       "subcategory": "special",
       "print": "グェ",
-      "dots": [
-        "256",
-        "1246"
-      ],
+      "dots": ["256", "1246"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "non-Japanese letter",
-      "tags": [
-        "kana",
-        "non-Japanese"
-      ],
+      "tags": ["kana", "non-Japanese"],
       "note": "標準点字と同じ",
       "braille": "⠲⠫",
       "unicode": "U+2832 U+282B"
@@ -586,20 +436,14 @@
       "category": "kana",
       "subcategory": "special",
       "print": "グォ",
-      "dots": [
-        "256",
-        "246"
-      ],
+      "dots": ["256", "246"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "non-Japanese letter",
-      "tags": [
-        "kana",
-        "non-Japanese"
-      ],
+      "tags": ["kana", "non-Japanese"],
       "note": "標準点字と同じ",
       "braille": "⠲⠪",
       "unicode": "U+2832 U+282A"
@@ -609,20 +453,14 @@
       "category": "kana",
       "subcategory": "special",
       "print": "ヴァ",
-      "dots": [
-        "256",
-        "136"
-      ],
+      "dots": ["256", "136"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "non-Japanese letter",
-      "tags": [
-        "kana",
-        "non-Japanese"
-      ],
+      "tags": ["kana", "non-Japanese"],
       "note": "標準点字と同じ",
       "braille": "⠲⠥",
       "unicode": "U+2832 U+2825"
@@ -632,20 +470,14 @@
       "category": "kana",
       "subcategory": "special",
       "print": "ヴィ",
-      "dots": [
-        "256",
-        "1236"
-      ],
+      "dots": ["256", "1236"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "non-Japanese letter",
-      "tags": [
-        "kana",
-        "non-Japanese"
-      ],
+      "tags": ["kana", "non-Japanese"],
       "note": "標準点字と同じ",
       "braille": "⠲⠧",
       "unicode": "U+2832 U+2827"
@@ -655,66 +487,65 @@
       "category": "kana",
       "subcategory": "special",
       "print": "ヴェ",
-      "dots": [
-        "256",
-        "1246"
-      ],
+      "dots": ["256", "12346"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "non-Japanese letter",
-      "tags": [
-        "kana",
-        "non-Japanese"
-      ],
+      "tags": ["kana", "non-Japanese"],
       "note": "標準点字と同じ",
-      "braille": "⠲⠫",
-      "unicode": "U+2832 U+282B"
+      "braille": "⠲⠯",
+      "unicode": "U+2832 U+282F"
     },
     {
       "id": "kana_vo",
       "category": "kana",
       "subcategory": "special",
       "print": "ヴォ",
-      "dots": [
-        "256",
-        "246"
-      ],
+      "dots": ["256", "2346"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "non-Japanese letter",
-      "tags": [
-        "kana",
-        "non-Japanese"
-      ],
+      "tags": ["kana", "non-Japanese"],
       "note": "標準点字と同じ",
-      "braille": "⠲⠪",
-      "unicode": "U+2832 U+282A"
+      "braille": "⠲⠮",
+      "unicode": "U+2832 U+282E"
+    },
+    {
+      "id": "kana_vu",
+      "category": "kana",
+      "subcategory": "special",
+      "print": "ヴ",
+      "dots": ["5", "14"],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "non-Japanese letter",
+      "tags": ["kana", "non-Japanese"],
+      "note": "標準点字と同じ",
+      "braille": "⠐⠉",
+      "unicode": "U+2810 U+2809"
     },
     {
       "id": "kana_sui",
       "category": "kana",
       "subcategory": "special",
       "print": "スィ",
-      "dots": [
-        "4",
-        "1256"
-      ],
+      "dots": ["4", "1256"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "non-Japanese letter",
-      "tags": [
-        "kana",
-        "non-Japanese"
-      ],
+      "tags": ["kana", "non-Japanese"],
       "note": "標準点字と同じ",
       "braille": "⠈⠳",
       "unicode": "U+2808 U+2833"
@@ -724,20 +555,14 @@
       "category": "kana",
       "subcategory": "special",
       "print": "ズィ",
-      "dots": [
-        "45",
-        "1256"
-      ],
+      "dots": ["45", "1256"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "non-Japanese letter",
-      "tags": [
-        "kana",
-        "non-Japanese"
-      ],
+      "tags": ["kana", "non-Japanese"],
       "note": "標準点字と同じ",
       "braille": "⠘⠳",
       "unicode": "U+2818 U+2833"
@@ -747,20 +572,14 @@
       "category": "kana",
       "subcategory": "special",
       "print": "ティ",
-      "dots": [
-        "4",
-        "1235"
-      ],
+      "dots": ["4", "1235"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "non-Japanese letter",
-      "tags": [
-        "kana",
-        "non-Japanese"
-      ],
+      "tags": ["kana", "non-Japanese"],
       "note": "標準点字と同じ",
       "braille": "⠈⠗",
       "unicode": "U+2808 U+2817"
@@ -770,20 +589,14 @@
       "category": "kana",
       "subcategory": "special",
       "print": "ディ",
-      "dots": [
-        "45",
-        "1235"
-      ],
+      "dots": ["45", "1235"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "non-Japanese letter",
-      "tags": [
-        "kana",
-        "non-Japanese"
-      ],
+      "tags": ["kana", "non-Japanese"],
       "note": "標準点字と同じ",
       "braille": "⠘⠗",
       "unicode": "U+2818 U+2817"
@@ -793,20 +606,14 @@
       "category": "kana",
       "subcategory": "special",
       "print": "トゥ",
-      "dots": [
-        "26",
-        "1345"
-      ],
+      "dots": ["26", "1345"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "non-Japanese letter",
-      "tags": [
-        "kana",
-        "non-Japanese"
-      ],
+      "tags": ["kana", "non-Japanese"],
       "note": "標準点字と同じ",
       "braille": "⠢⠝",
       "unicode": "U+2822 U+281D"
@@ -816,20 +623,14 @@
       "category": "kana",
       "subcategory": "special",
       "print": "ドゥ",
-      "dots": [
-        "256",
-        "1345"
-      ],
+      "dots": ["256", "1345"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "non-Japanese letter",
-      "tags": [
-        "kana",
-        "non-Japanese"
-      ],
+      "tags": ["kana", "non-Japanese"],
       "note": "標準点字と同じ",
       "braille": "⠲⠝",
       "unicode": "U+2832 U+281D"
@@ -839,20 +640,14 @@
       "category": "kana",
       "subcategory": "special",
       "print": "テュ",
-      "dots": [
-        "46",
-        "1345"
-      ],
+      "dots": ["46", "1345"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "non-Japanese letter",
-      "tags": [
-        "kana",
-        "non-Japanese"
-      ],
+      "tags": ["kana", "non-Japanese"],
       "note": "標準点字と同じ",
       "braille": "⠨⠝",
       "unicode": "U+2828 U+281D"
@@ -862,20 +657,14 @@
       "category": "kana",
       "subcategory": "special",
       "print": "デュ",
-      "dots": [
-        "456",
-        "1345"
-      ],
+      "dots": ["456", "1345"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "non-Japanese letter",
-      "tags": [
-        "kana",
-        "non-Japanese"
-      ],
+      "tags": ["kana", "non-Japanese"],
       "note": "標準点字と同じ",
       "braille": "⠸⠝",
       "unicode": "U+2838 U+281D"
@@ -885,20 +674,14 @@
       "category": "kana",
       "subcategory": "special",
       "print": "フュ",
-      "dots": [
-        "46",
-        "346"
-      ],
+      "dots": ["46", "346"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "non-Japanese letter",
-      "tags": [
-        "kana",
-        "non-Japanese"
-      ],
+      "tags": ["kana", "non-Japanese"],
       "note": "標準点字と同じ",
       "braille": "⠨⠬",
       "unicode": "U+2828 U+282C"
@@ -908,20 +691,14 @@
       "category": "kana",
       "subcategory": "special",
       "print": "ヴュ",
-      "dots": [
-        "456",
-        "346"
-      ],
+      "dots": ["456", "346"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "non-Japanese letter",
-      "tags": [
-        "kana",
-        "non-Japanese"
-      ],
+      "tags": ["kana", "non-Japanese"],
       "note": "標準点字と同じ",
       "braille": "⠸⠬",
       "unicode": "U+2838 U+282C"
@@ -931,20 +708,14 @@
       "category": "kana",
       "subcategory": "special",
       "print": "フョ",
-      "dots": [
-        "46",
-        "345"
-      ],
+      "dots": ["46", "345"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "non-Japanese letter",
-      "tags": [
-        "kana",
-        "non-Japanese"
-      ],
+      "tags": ["kana", "non-Japanese"],
       "note": "標準点字と同じ",
       "braille": "⠨⠜",
       "unicode": "U+2828 U+281C"
@@ -954,20 +725,14 @@
       "category": "kana",
       "subcategory": "special",
       "print": "ヴョ",
-      "dots": [
-        "456",
-        "345"
-      ],
+      "dots": ["456", "345"],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "non-Japanese letter",
-      "tags": [
-        "kana",
-        "non-Japanese"
-      ],
+      "tags": ["kana", "non-Japanese"],
       "note": "標準点字と同じ",
       "braille": "⠸⠜",
       "unicode": "U+2838 U+281C"

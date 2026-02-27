@@ -135,7 +135,7 @@ entries:
       requires_indicator: false
       priority: 100
     role: "indicator"
-    tags: ["kana", "custom"]
+    tags: ["kana", "custom", "passage"]
     note: ""
 
   - id: "indicator_kana_terminator"

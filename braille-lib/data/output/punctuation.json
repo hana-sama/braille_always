@@ -1,24 +1,33 @@
 {
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
   "schema_version": "1.0",
   "system_id": "ueb",
   "system_name": "Unified English Braille",
+  "version": "2024 rules",
+  "source": "BANA/ICEB official",
   "locale": "en",
   "braille_type": "grade1 and grade2",
   "cell_size": 6,
+  "generated_at": "2026-02-27T01:38:00.486630+00:00",
   "entries": [
     {
       "id": "punctuation_comma",
       "category": "punctuation",
       "subcategory": "basic",
       "print": ",",
-      "dots": ["2"],
+      "dots": [
+        "2"
+      ],
       "context": {
         "position": "after",
         "requires_indicator": false,
         "priority": 100
       },
       "role": "punctuation",
-      "tags": ["punctuation", "comma"],
+      "tags": [
+        "punctuation",
+        "comma"
+      ],
       "note": "",
       "braille": "⠂",
       "unicode": "U+2802"
@@ -28,14 +37,19 @@
       "category": "punctuation",
       "subcategory": "basic",
       "print": ";",
-      "dots": ["23"],
+      "dots": [
+        "23"
+      ],
       "context": {
         "position": "after",
         "requires_indicator": false,
         "priority": 100
       },
       "role": "punctuation",
-      "tags": ["punctuation", "semicolon"],
+      "tags": [
+        "punctuation",
+        "semicolon"
+      ],
       "note": "",
       "braille": "⠆",
       "unicode": "U+2806"
@@ -45,14 +59,19 @@
       "category": "punctuation",
       "subcategory": "basic",
       "print": ":",
-      "dots": ["25"],
+      "dots": [
+        "25"
+      ],
       "context": {
         "position": "after",
         "requires_indicator": false,
         "priority": 100
       },
       "role": "punctuation",
-      "tags": ["punctuation", "colon"],
+      "tags": [
+        "punctuation",
+        "colon"
+      ],
       "note": "",
       "braille": "⠒",
       "unicode": "U+2812"
@@ -62,14 +81,19 @@
       "category": "punctuation",
       "subcategory": "basic",
       "print": ".",
-      "dots": ["256"],
+      "dots": [
+        "256"
+      ],
       "context": {
         "position": "after",
         "requires_indicator": false,
         "priority": 100
       },
       "role": "punctuation",
-      "tags": ["punctuation", "period"],
+      "tags": [
+        "punctuation",
+        "period"
+      ],
       "note": "",
       "braille": "⠲",
       "unicode": "U+2832"
@@ -79,14 +103,19 @@
       "category": "punctuation",
       "subcategory": "basic",
       "print": "?",
-      "dots": ["236"],
+      "dots": [
+        "236"
+      ],
       "context": {
         "position": "after",
         "requires_indicator": false,
         "priority": 100
       },
       "role": "punctuation",
-      "tags": ["punctuation", "question"],
+      "tags": [
+        "punctuation",
+        "question"
+      ],
       "note": "",
       "braille": "⠦",
       "unicode": "U+2826"
@@ -96,31 +125,43 @@
       "category": "punctuation",
       "subcategory": "basic",
       "print": "?",
-      "dots": ["56", "236"],
+      "dots": [
+        "56",
+        "236"
+      ],
       "context": {
         "position": "after",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "punctuation",
-      "tags": ["punctuation", "question", "custom"],
+      "tags": [
+        "punctuation",
+        "question",
+        "custom"
+      ],
       "note": "",
-      "braille": "⠰⠦",
-      "unicode": "U+2830 U+2826"
+      "braille": "⠶",
+      "unicode": "U+2836"
     },
     {
       "id": "punctuation_exclamation",
       "category": "punctuation",
       "subcategory": "basic",
       "print": "!",
-      "dots": ["235"],
+      "dots": [
+        "235"
+      ],
       "context": {
         "position": "after",
         "requires_indicator": false,
         "priority": 100
       },
       "role": "punctuation",
-      "tags": ["punctuation", "exclamation"],
+      "tags": [
+        "punctuation",
+        "exclamation"
+      ],
       "note": "",
       "braille": "⠖",
       "unicode": "U+2816"
@@ -130,48 +171,66 @@
       "category": "punctuation",
       "subcategory": "basic",
       "print": "–",
-      "dots": ["6", "36"],
+      "dots": [
+        "6",
+        "36"
+      ],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "punctuation",
-      "tags": ["punctuation", "en_dash"],
+      "tags": [
+        "punctuation",
+        "en_dash"
+      ],
       "note": "",
-      "braille": "⠠⠤",
-      "unicode": "U+2820 U+2824"
+      "braille": "⠤",
+      "unicode": "U+2824"
     },
     {
       "id": "punctuation_em_dash",
       "category": "punctuation",
       "subcategory": "basic",
       "print": "—",
-      "dots": ["5", "6", "36"],
+      "dots": [
+        "5",
+        "6",
+        "36"
+      ],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "punctuation",
-      "tags": ["punctuation", "em_dash"],
+      "tags": [
+        "punctuation",
+        "em_dash"
+      ],
       "note": "",
-      "braille": "⠐⠠⠤",
-      "unicode": "U+2810 U+2820 U+2824"
+      "braille": "⠴",
+      "unicode": "U+2834"
     },
     {
       "id": "punctuation_hyphen",
       "category": "punctuation",
       "subcategory": "basic",
       "print": "-",
-      "dots": ["36"],
+      "dots": [
+        "36"
+      ],
       "context": {
         "position": "any",
         "requires_indicator": false,
         "priority": 100
       },
       "role": "punctuation",
-      "tags": ["punctuation", "hyphen"],
+      "tags": [
+        "punctuation",
+        "hyphen"
+      ],
       "note": "",
       "braille": "⠤",
       "unicode": "U+2824"
@@ -181,14 +240,19 @@
       "category": "punctuation",
       "subcategory": "basic",
       "print": "'",
-      "dots": ["3"],
+      "dots": [
+        "3"
+      ],
       "context": {
         "position": "any",
         "requires_indicator": false,
         "priority": 100
       },
       "role": "punctuation",
-      "tags": ["punctuation", "apostrophe"],
+      "tags": [
+        "punctuation",
+        "apostrophe"
+      ],
       "note": "",
       "braille": "⠄",
       "unicode": "U+2804"
@@ -198,65 +262,89 @@
       "category": "punctuation",
       "subcategory": "basic",
       "print": "…",
-      "dots": ["256", "256", "256"],
+      "dots": [
+        "256",
+        "256",
+        "256"
+      ],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "punctuation",
-      "tags": ["punctuation", "ellipsis"],
+      "tags": [
+        "punctuation",
+        "ellipsis"
+      ],
       "note": "",
-      "braille": "⠲⠲⠲",
-      "unicode": "U+2832 U+2832 U+2832"
+      "braille": "⠲",
+      "unicode": "U+2832"
     },
     {
       "id": "punctuation_slash",
       "category": "punctuation",
       "subcategory": "basic",
       "print": "/",
-      "dots": ["456", "34"],
+      "dots": [
+        "456",
+        "34"
+      ],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "punctuation",
-      "tags": ["punctuation", "slash"],
+      "tags": [
+        "punctuation",
+        "slash"
+      ],
       "note": "",
-      "braille": "⠸⠌",
-      "unicode": "U+2838 U+280C"
+      "braille": "⠼",
+      "unicode": "U+283C"
     },
     {
       "id": "punctuation_backslash",
       "category": "punctuation",
       "subcategory": "basic",
       "print": "\\",
-      "dots": ["456", "16"],
+      "dots": [
+        "456",
+        "16"
+      ],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "punctuation",
-      "tags": ["punctuation", "backslash"],
+      "tags": [
+        "punctuation",
+        "backslash"
+      ],
       "note": "",
-      "braille": "⠸⠡",
-      "unicode": "U+2838 U+2821"
+      "braille": "⠹",
+      "unicode": "U+2839"
     },
     {
       "id": "punctuation_left_double_quotation_mark",
       "category": "punctuation",
       "subcategory": "basic",
       "print": "“",
-      "dots": ["236"],
+      "dots": [
+        "236"
+      ],
       "context": {
         "position": "any",
         "requires_indicator": false,
         "priority": 100
       },
       "role": "open",
-      "tags": ["punctuation", "left double quotation mark"],
+      "tags": [
+        "punctuation",
+        "left double quotation mark"
+      ],
       "note": "",
       "braille": "⠦",
       "unicode": "U+2826"
@@ -266,14 +354,19 @@
       "category": "punctuation",
       "subcategory": "basic",
       "print": "”",
-      "dots": ["356"],
+      "dots": [
+        "356"
+      ],
       "context": {
         "position": "any",
         "requires_indicator": false,
         "priority": 100
       },
       "role": "close",
-      "tags": ["punctuation", "right double quotation mark"],
+      "tags": [
+        "punctuation",
+        "right double quotation mark"
+      ],
       "note": "",
       "braille": "⠴",
       "unicode": "U+2834"
@@ -283,171 +376,230 @@
       "category": "punctuation",
       "subcategory": "basic",
       "print": "'",
-      "dots": ["6", "236"],
+      "dots": [
+        "6",
+        "236"
+      ],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "open",
-      "tags": ["punctuation", "left single quotation mark"],
+      "tags": [
+        "punctuation",
+        "left single quotation mark"
+      ],
       "note": "",
-      "braille": "⠠⠦",
-      "unicode": "U+2820 U+2826"
+      "braille": "⠦",
+      "unicode": "U+2826"
     },
     {
       "id": "punctuation_right_single_quotation_mark",
       "category": "punctuation",
       "subcategory": "basic",
       "print": "'",
-      "dots": ["6", "356"],
+      "dots": [
+        "6",
+        "356"
+      ],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "close",
-      "tags": ["punctuation", "right single quotation mark"],
+      "tags": [
+        "punctuation",
+        "right single quotation mark"
+      ],
       "note": "",
-      "braille": "⠠⠴",
-      "unicode": "U+2820 U+2834"
+      "braille": "⠴",
+      "unicode": "U+2834"
     },
     {
       "id": "punctuation_left_parenthesis",
       "category": "punctuation",
       "subcategory": "basic",
       "print": "(",
-      "dots": ["5", "126"],
+      "dots": [
+        "5",
+        "126"
+      ],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "open",
-      "tags": ["punctuation", "left parenthesis"],
+      "tags": [
+        "punctuation",
+        "left parenthesis"
+      ],
       "note": "",
-      "braille": "⠐⠣",
-      "unicode": "U+2810 U+2823"
+      "braille": "⠳",
+      "unicode": "U+2833"
     },
     {
       "id": "punctuation_right_parenthesis",
       "category": "punctuation",
       "subcategory": "basic",
       "print": ")",
-      "dots": ["5", "345"],
+      "dots": [
+        "5",
+        "345"
+      ],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "close",
-      "tags": ["punctuation", "right parenthesis"],
+      "tags": [
+        "punctuation",
+        "right parenthesis"
+      ],
       "note": "",
-      "braille": "⠐⠜",
-      "unicode": "U+2810 U+281C"
+      "braille": "⠜",
+      "unicode": "U+281C"
     },
     {
       "id": "punctuation_left_square_bracket",
       "category": "punctuation",
       "subcategory": "basic",
       "print": "[",
-      "dots": ["46", "126"],
+      "dots": [
+        "46",
+        "126"
+      ],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "open",
-      "tags": ["punctuation", "left square bracket"],
+      "tags": [
+        "punctuation",
+        "left square bracket"
+      ],
       "note": "",
-      "braille": "⠨⠣",
-      "unicode": "U+2828 U+2823"
+      "braille": "⠫",
+      "unicode": "U+282B"
     },
     {
       "id": "punctuation_right_square_bracket",
       "category": "punctuation",
       "subcategory": "basic",
       "print": "]",
-      "dots": ["46", "345"],
+      "dots": [
+        "46",
+        "345"
+      ],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "close",
-      "tags": ["punctuation", "right square bracket"],
+      "tags": [
+        "punctuation",
+        "right square bracket"
+      ],
       "note": "",
-      "braille": "⠨⠜",
-      "unicode": "U+2828 U+281C"
+      "braille": "⠼",
+      "unicode": "U+283C"
     },
     {
       "id": "punctuation_left_curly_bracket",
       "category": "punctuation",
       "subcategory": "basic",
       "print": "{",
-      "dots": ["456", "126"],
+      "dots": [
+        "456",
+        "126"
+      ],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "open",
-      "tags": ["punctuation", "left curly bracket"],
+      "tags": [
+        "punctuation",
+        "left curly bracket"
+      ],
       "note": "",
-      "braille": "⠸⠣",
-      "unicode": "U+2838 U+2823"
+      "braille": "⠻",
+      "unicode": "U+283B"
     },
     {
       "id": "punctuation_right_curly_bracket",
       "category": "punctuation",
       "subcategory": "basic",
       "print": "}",
-      "dots": ["456", "345"],
+      "dots": [
+        "456",
+        "345"
+      ],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "close",
-      "tags": ["punctuation", "right curly bracket"],
+      "tags": [
+        "punctuation",
+        "right curly bracket"
+      ],
       "note": "",
-      "braille": "⠸⠜",
-      "unicode": "U+2838 U+281C"
+      "braille": "⠼",
+      "unicode": "U+283C"
     },
     {
       "id": "punctuation_less_than_sign",
       "category": "punctuation",
       "subcategory": "basic",
       "print": "<",
-      "dots": ["4", "126"],
+      "dots": [
+        "4",
+        "126"
+      ],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "open",
-      "tags": ["punctuation", "less than sign"],
+      "tags": [
+        "punctuation",
+        "less than sign"
+      ],
       "note": "",
-      "braille": "⠈⠣",
-      "unicode": "U+2808 U+2823"
+      "braille": "⠫",
+      "unicode": "U+282B"
     },
     {
       "id": "punctuation_greater_than_sign",
       "category": "punctuation",
       "subcategory": "basic",
       "print": ">",
-      "dots": ["4", "345"],
+      "dots": [
+        "4",
+        "345"
+      ],
       "context": {
         "position": "any",
         "requires_indicator": true,
         "priority": 100
       },
       "role": "close",
-      "tags": ["punctuation", "greater than sign"],
+      "tags": [
+        "punctuation",
+        "greater than sign"
+      ],
       "note": "",
-      "braille": "⠈⠜",
-      "unicode": "U+2808 U+281C"
+      "braille": "⠜",
+      "unicode": "U+281C"
     }
-  ],
-  "settings": {}
+  ]
 }

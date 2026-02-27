@@ -1,24 +1,32 @@
 {
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
   "schema_version": "1.0",
   "system_id": "ueb",
   "system_name": "Unified English Braille",
+  "version": "2024 rules",
+  "source": "BANA/ICEB official",
   "locale": "en",
   "braille_type": "grade1 and grade2",
   "cell_size": 6,
+  "generated_at": "2026-02-27T01:38:00.450534+00:00",
   "entries": [
     {
       "id": "indicator_numeric",
       "category": "indicator",
       "subcategory": "numeric",
       "print": null,
-      "dots": ["3456"],
+      "dots": [
+        "3456"
+      ],
       "context": {
         "position": "before",
         "requires_indicator": false,
         "priority": 100
       },
       "role": "indicator",
-      "tags": ["numeric"],
+      "tags": [
+        "numeric"
+      ],
       "note": "",
       "braille": "⠼",
       "unicode": "U+283C"
@@ -28,14 +36,19 @@
       "category": "indicator",
       "subcategory": "capital",
       "print": null,
-      "dots": ["6"],
+      "dots": [
+        "6"
+      ],
       "context": {
         "position": "before",
         "requires_indicator": false,
         "priority": 100
       },
       "role": "indicator",
-      "tags": ["capital", "letter"],
+      "tags": [
+        "capital",
+        "letter"
+      ],
       "note": "",
       "braille": "⠠",
       "unicode": "U+2820"
@@ -45,65 +58,89 @@
       "category": "indicator",
       "subcategory": "capital",
       "print": null,
-      "dots": ["6", "6"],
+      "dots": [
+        "6",
+        "6"
+      ],
       "context": {
         "position": "before",
         "requires_indicator": false,
         "priority": 100
       },
       "role": "indicator",
-      "tags": ["capital", "word"],
+      "tags": [
+        "capital",
+        "word"
+      ],
       "note": "",
-      "braille": "⠠⠠",
-      "unicode": "U+2820 U+2820"
+      "braille": "⠠",
+      "unicode": "U+2820"
     },
     {
       "id": "indicator_capital_passage",
       "category": "indicator",
       "subcategory": "capital",
       "print": null,
-      "dots": ["6", "6", "6"],
+      "dots": [
+        "6",
+        "6",
+        "6"
+      ],
       "context": {
         "position": "before",
         "requires_indicator": false,
         "priority": 100
       },
       "role": "indicator",
-      "tags": ["capital", "passage"],
+      "tags": [
+        "capital",
+        "passage"
+      ],
       "note": "",
-      "braille": "⠠⠠⠠",
-      "unicode": "U+2820 U+2820 U+2820"
+      "braille": "⠠",
+      "unicode": "U+2820"
     },
     {
       "id": "indicator_capital_terminator",
       "category": "indicator",
       "subcategory": "capital",
       "print": null,
-      "dots": ["6", "3"],
+      "dots": [
+        "6",
+        "3"
+      ],
       "context": {
         "position": "after",
         "requires_indicator": false,
         "priority": 100
       },
       "role": "indicator",
-      "tags": ["capital", "terminator"],
+      "tags": [
+        "capital",
+        "terminator"
+      ],
       "note": "",
-      "braille": "⠠⠄",
-      "unicode": "U+2820 U+2804"
+      "braille": "⠤",
+      "unicode": "U+2824"
     },
     {
       "id": "indicator_grade1_symbol",
       "category": "indicator",
       "subcategory": "grade1",
       "print": null,
-      "dots": ["56"],
+      "dots": [
+        "56"
+      ],
       "context": {
         "position": "before",
         "requires_indicator": false,
         "priority": 100
       },
       "role": "indicator",
-      "tags": ["grade1", "symbol"],
+      "tags": [
+        "grade1",
+        "symbol"
+      ],
       "note": "",
       "braille": "⠰",
       "unicode": "U+2830"
@@ -113,358 +150,487 @@
       "category": "indicator",
       "subcategory": "grade1",
       "print": null,
-      "dots": ["56", "56"],
+      "dots": [
+        "56",
+        "56"
+      ],
       "context": {
         "position": "before",
         "requires_indicator": false,
         "priority": 100
       },
       "role": "indicator",
-      "tags": ["grade1", "word"],
+      "tags": [
+        "grade1",
+        "word"
+      ],
       "note": "",
-      "braille": "⠰⠰",
-      "unicode": "U+2830 U+2830"
+      "braille": "⠰",
+      "unicode": "U+2830"
     },
     {
       "id": "indicator_grade1_passage",
       "category": "indicator",
       "subcategory": "grade1",
       "print": null,
-      "dots": ["56", "56", "56"],
+      "dots": [
+        "56",
+        "56",
+        "56"
+      ],
       "context": {
         "position": "before",
         "requires_indicator": false,
         "priority": 100
       },
       "role": "indicator",
-      "tags": ["grade1", "passage"],
+      "tags": [
+        "grade1",
+        "passage"
+      ],
       "note": "",
-      "braille": "⠰⠰⠰",
-      "unicode": "U+2830 U+2830 U+2830"
+      "braille": "⠰",
+      "unicode": "U+2830"
     },
     {
       "id": "indicator_grade1_terminator",
       "category": "indicator",
       "subcategory": "grade1",
       "print": null,
-      "dots": ["56", "3"],
+      "dots": [
+        "56",
+        "3"
+      ],
       "context": {
         "position": "after",
         "requires_indicator": false,
         "priority": 100
       },
       "role": "indicator",
-      "tags": ["grade1", "terminator"],
+      "tags": [
+        "grade1",
+        "terminator"
+      ],
       "note": "",
-      "braille": "⠰⠄",
-      "unicode": "U+2830 U+2804"
+      "braille": "⠴",
+      "unicode": "U+2834"
     },
     {
       "id": "indicator_kana",
       "category": "indicator",
       "subcategory": "kana",
       "print": null,
-      "dots": ["16", "13"],
+      "dots": [
+        "16",
+        "13"
+      ],
       "context": {
         "position": "before",
         "requires_indicator": false,
         "priority": 100
       },
       "role": "indicator",
-      "tags": ["kana", "custom", "passage"],
+      "tags": [
+        "kana",
+        "custom",
+        "passage"
+      ],
       "note": "",
-      "braille": "⠡⠅",
-      "unicode": "U+2821 U+2805"
+      "braille": "⠥",
+      "unicode": "U+2825"
     },
     {
       "id": "indicator_kana_terminator",
       "category": "indicator",
       "subcategory": "kana",
       "print": null,
-      "dots": ["16", "13", "3"],
+      "dots": [
+        "16",
+        "13",
+        "3"
+      ],
       "context": {
         "position": "after",
         "requires_indicator": false,
         "priority": 100
       },
       "role": "indicator",
-      "tags": ["kana", "custom", "terminator"],
+      "tags": [
+        "kana",
+        "custom",
+        "terminator"
+      ],
       "note": "",
-      "braille": "⠡⠅⠄",
-      "unicode": "U+2821 U+2805 U+2804"
+      "braille": "⠥",
+      "unicode": "U+2825"
     },
     {
       "id": "indicator_italic_symbol",
       "category": "indicator",
       "subcategory": "italic",
       "print": null,
-      "dots": ["46", "23"],
+      "dots": [
+        "46",
+        "23"
+      ],
       "context": {
         "position": "before",
         "requires_indicator": false,
         "priority": 100
       },
       "role": "indicator",
-      "tags": ["italic", "symbol"],
+      "tags": [
+        "italic",
+        "symbol"
+      ],
       "note": "",
-      "braille": "⠨⠆",
-      "unicode": "U+2828 U+2806"
+      "braille": "⠮",
+      "unicode": "U+282E"
     },
     {
       "id": "indicator_italic_word",
       "category": "indicator",
       "subcategory": "italic",
       "print": null,
-      "dots": ["46", "2"],
+      "dots": [
+        "46",
+        "2"
+      ],
       "context": {
         "position": "before",
         "requires_indicator": false,
         "priority": 100
       },
       "role": "indicator",
-      "tags": ["italic", "word"],
+      "tags": [
+        "italic",
+        "word"
+      ],
       "note": "",
-      "braille": "⠨⠂",
-      "unicode": "U+2828 U+2802"
+      "braille": "⠪",
+      "unicode": "U+282A"
     },
     {
       "id": "indicator_italic_passage",
       "category": "indicator",
       "subcategory": "italic",
       "print": null,
-      "dots": ["46", "2356"],
+      "dots": [
+        "46",
+        "2356"
+      ],
       "context": {
         "position": "before",
         "requires_indicator": false,
         "priority": 100
       },
       "role": "indicator",
-      "tags": ["italic", "passage"],
+      "tags": [
+        "italic",
+        "passage"
+      ],
       "note": "",
-      "braille": "⠨⠶",
-      "unicode": "U+2828 U+2836"
+      "braille": "⠾",
+      "unicode": "U+283E"
     },
     {
       "id": "indicator_italic_terminator",
       "category": "indicator",
       "subcategory": "italic",
       "print": null,
-      "dots": ["46", "3"],
+      "dots": [
+        "46",
+        "3"
+      ],
       "context": {
         "position": "after",
         "requires_indicator": false,
         "priority": 100
       },
       "role": "indicator",
-      "tags": ["italic", "terminator"],
+      "tags": [
+        "italic",
+        "terminator"
+      ],
       "note": "",
-      "braille": "⠨⠄",
-      "unicode": "U+2828 U+2804"
+      "braille": "⠬",
+      "unicode": "U+282C"
     },
     {
       "id": "indicator_bold_symbol",
       "category": "indicator",
       "subcategory": "bold",
       "print": null,
-      "dots": ["45", "23"],
+      "dots": [
+        "45",
+        "23"
+      ],
       "context": {
         "position": "before",
         "requires_indicator": false,
         "priority": 100
       },
       "role": "indicator",
-      "tags": ["bold", "symbol"],
+      "tags": [
+        "bold",
+        "symbol"
+      ],
       "note": "",
-      "braille": "⠘⠆",
-      "unicode": "U+2818 U+2806"
+      "braille": "⠞",
+      "unicode": "U+281E"
     },
     {
       "id": "indicator_bold_word",
       "category": "indicator",
       "subcategory": "bold",
       "print": null,
-      "dots": ["45", "2"],
+      "dots": [
+        "45",
+        "2"
+      ],
       "context": {
         "position": "before",
         "requires_indicator": false,
         "priority": 100
       },
       "role": "indicator",
-      "tags": ["bold", "word"],
+      "tags": [
+        "bold",
+        "word"
+      ],
       "note": "",
-      "braille": "⠘⠂",
-      "unicode": "U+2818 U+2802"
+      "braille": "⠚",
+      "unicode": "U+281A"
     },
     {
       "id": "indicator_bold_passage",
       "category": "indicator",
       "subcategory": "bold",
       "print": null,
-      "dots": ["45", "2356"],
+      "dots": [
+        "45",
+        "2356"
+      ],
       "context": {
         "position": "before",
         "requires_indicator": false,
         "priority": 100
       },
       "role": "indicator",
-      "tags": ["bold", "passage"],
+      "tags": [
+        "bold",
+        "passage"
+      ],
       "note": "",
-      "braille": "⠘⠶",
-      "unicode": "U+2818 U+2836"
+      "braille": "⠾",
+      "unicode": "U+283E"
     },
     {
       "id": "indicator_bold_terminator",
       "category": "indicator",
       "subcategory": "bold",
       "print": null,
-      "dots": ["45", "3"],
+      "dots": [
+        "45",
+        "3"
+      ],
       "context": {
         "position": "after",
         "requires_indicator": false,
         "priority": 100
       },
       "role": "indicator",
-      "tags": ["bold", "terminator"],
+      "tags": [
+        "bold",
+        "terminator"
+      ],
       "note": "",
-      "braille": "⠘⠄",
-      "unicode": "U+2818 U+2804"
+      "braille": "⠜",
+      "unicode": "U+281C"
     },
     {
       "id": "indicator_underline_symbol",
       "category": "indicator",
       "subcategory": "underline",
       "print": null,
-      "dots": ["456", "23"],
+      "dots": [
+        "456",
+        "23"
+      ],
       "context": {
         "position": "before",
         "requires_indicator": false,
         "priority": 100
       },
       "role": "indicator",
-      "tags": ["underline", "symbol"],
+      "tags": [
+        "underline",
+        "symbol"
+      ],
       "note": "",
-      "braille": "⠸⠆",
-      "unicode": "U+2838 U+2806"
+      "braille": "⠾",
+      "unicode": "U+283E"
     },
     {
       "id": "indicator_underline_word",
       "category": "indicator",
       "subcategory": "underline",
       "print": null,
-      "dots": ["456", "2"],
+      "dots": [
+        "456",
+        "2"
+      ],
       "context": {
         "position": "before",
         "requires_indicator": false,
         "priority": 100
       },
       "role": "indicator",
-      "tags": ["underline", "word"],
+      "tags": [
+        "underline",
+        "word"
+      ],
       "note": "",
-      "braille": "⠸⠂",
-      "unicode": "U+2838 U+2802"
+      "braille": "⠺",
+      "unicode": "U+283A"
     },
     {
       "id": "indicator_underline_passage",
       "category": "indicator",
       "subcategory": "underline",
       "print": null,
-      "dots": ["456", "2356"],
+      "dots": [
+        "456",
+        "2356"
+      ],
       "context": {
         "position": "before",
         "requires_indicator": false,
         "priority": 100
       },
       "role": "indicator",
-      "tags": ["underline", "passage"],
+      "tags": [
+        "underline",
+        "passage"
+      ],
       "note": "",
-      "braille": "⠸⠶",
-      "unicode": "U+2838 U+2836"
+      "braille": "⠾",
+      "unicode": "U+283E"
     },
     {
       "id": "indicator_underline_terminator",
       "category": "indicator",
       "subcategory": "underline",
       "print": null,
-      "dots": ["456", "3"],
+      "dots": [
+        "456",
+        "3"
+      ],
       "context": {
         "position": "before",
         "requires_indicator": false,
         "priority": 100
       },
       "role": "indicator",
-      "tags": ["underline", "terminator"],
+      "tags": [
+        "underline",
+        "terminator"
+      ],
       "note": "",
-      "braille": "⠸⠄",
-      "unicode": "U+2838 U+2804"
+      "braille": "⠼",
+      "unicode": "U+283C"
     },
     {
       "id": "indicator_script_symbol",
       "category": "indicator",
       "subcategory": "script",
       "print": null,
-      "dots": ["4", "23"],
+      "dots": [
+        "4",
+        "23"
+      ],
       "context": {
         "position": "before",
         "requires_indicator": false,
         "priority": 100
       },
       "role": "indicator",
-      "tags": ["script", "symbol"],
+      "tags": [
+        "script",
+        "symbol"
+      ],
       "note": "",
-      "braille": "⠈⠆",
-      "unicode": "U+2808 U+2806"
+      "braille": "⠎",
+      "unicode": "U+280E"
     },
     {
       "id": "indicator_script_word",
       "category": "indicator",
       "subcategory": "script",
       "print": null,
-      "dots": ["4", "2"],
+      "dots": [
+        "4",
+        "2"
+      ],
       "context": {
         "position": "before",
         "requires_indicator": false,
         "priority": 100
       },
       "role": "indicator",
-      "tags": ["script", "word"],
+      "tags": [
+        "script",
+        "word"
+      ],
       "note": "",
-      "braille": "⠈⠂",
-      "unicode": "U+2808 U+2802"
+      "braille": "⠊",
+      "unicode": "U+280A"
     },
     {
       "id": "indicator_script_passage",
       "category": "indicator",
       "subcategory": "script",
       "print": null,
-      "dots": ["4", "2356"],
+      "dots": [
+        "4",
+        "2356"
+      ],
       "context": {
         "position": "before",
         "requires_indicator": false,
         "priority": 100
       },
       "role": "indicator",
-      "tags": ["script", "passage"],
+      "tags": [
+        "script",
+        "passage"
+      ],
       "note": "",
-      "braille": "⠈⠶",
-      "unicode": "U+2808 U+2836"
+      "braille": "⠾",
+      "unicode": "U+283E"
     },
     {
       "id": "indicator_script_terminator",
       "category": "indicator",
       "subcategory": "script",
       "print": null,
-      "dots": ["4", "3"],
+      "dots": [
+        "4",
+        "3"
+      ],
       "context": {
         "position": "after",
         "requires_indicator": false,
         "priority": 100
       },
       "role": "indicator",
-      "tags": ["script", "terminator"],
+      "tags": [
+        "script",
+        "terminator"
+      ],
       "note": "",
-      "braille": "⠈⠄",
-      "unicode": "U+2808 U+2804"
+      "braille": "⠌",
+      "unicode": "U+280C"
     }
-  ],
-  "settings": {}
+  ]
 }

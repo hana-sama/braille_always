@@ -13,8 +13,8 @@ from unittest import TestCase, main
 
 import yaml
 
-# Import functions from test.py
-from test import (
+# Import functions from convert.py
+from convert import (
     DOT_MAP,
     BRAILLE_BASE,
     dots_to_unicode,

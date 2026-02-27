@@ -1,0 +1,586 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "schema_version": "1.0",
+  "system_id": "ueb",
+  "system_name": "Unified English Braille",
+  "version": "2024 rules",
+  "source": "BANA/ICEB official",
+  "locale": "en",
+  "braille_type": "grade1",
+  "cell_size": 6,
+  "generated_at": "2026-02-27T01:38:00.471491+00:00",
+  "entries": [
+    {
+      "id": "letter_a",
+      "category": "alphabet",
+      "subcategory": "basic",
+      "print": "a",
+      "dots": [
+        "1"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "letter",
+        "alphabetic"
+      ],
+      "note": "",
+      "braille": "⠁",
+      "unicode": "U+2801"
+    },
+    {
+      "id": "letter_b",
+      "category": "alphabet",
+      "subcategory": "basic",
+      "print": "b",
+      "dots": [
+        "12"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "letter",
+        "alphabetic"
+      ],
+      "note": "",
+      "braille": "⠃",
+      "unicode": "U+2803"
+    },
+    {
+      "id": "letter_c",
+      "category": "alphabet",
+      "subcategory": "basic",
+      "print": "c",
+      "dots": [
+        "14"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "letter",
+        "alphabetic"
+      ],
+      "note": "",
+      "braille": "⠉",
+      "unicode": "U+2809"
+    },
+    {
+      "id": "letter_d",
+      "category": "alphabet",
+      "subcategory": "basic",
+      "print": "d",
+      "dots": [
+        "145"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "letter",
+        "alphabetic"
+      ],
+      "note": "",
+      "braille": "⠙",
+      "unicode": "U+2819"
+    },
+    {
+      "id": "letter_e",
+      "category": "alphabet",
+      "subcategory": "basic",
+      "print": "e",
+      "dots": [
+        "15"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "letter",
+        "alphabetic"
+      ],
+      "note": "",
+      "braille": "⠑",
+      "unicode": "U+2811"
+    },
+    {
+      "id": "letter_f",
+      "category": "alphabet",
+      "subcategory": "basic",
+      "print": "f",
+      "dots": [
+        "124"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "letter",
+        "alphabetic"
+      ],
+      "note": "",
+      "braille": "⠋",
+      "unicode": "U+280B"
+    },
+    {
+      "id": "letter_g",
+      "category": "alphabet",
+      "subcategory": "basic",
+      "print": "g",
+      "dots": [
+        "1245"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "letter",
+        "alphabetic"
+      ],
+      "note": "",
+      "braille": "⠛",
+      "unicode": "U+281B"
+    },
+    {
+      "id": "letter_h",
+      "category": "alphabet",
+      "subcategory": "basic",
+      "print": "h",
+      "dots": [
+        "125"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "letter",
+        "alphabetic"
+      ],
+      "note": "",
+      "braille": "⠓",
+      "unicode": "U+2813"
+    },
+    {
+      "id": "letter_i",
+      "category": "alphabet",
+      "subcategory": "basic",
+      "print": "i",
+      "dots": [
+        "24"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "letter",
+        "alphabetic"
+      ],
+      "note": "",
+      "braille": "⠊",
+      "unicode": "U+280A"
+    },
+    {
+      "id": "letter_j",
+      "category": "alphabet",
+      "subcategory": "basic",
+      "print": "j",
+      "dots": [
+        "245"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "letter",
+        "alphabetic"
+      ],
+      "note": "",
+      "braille": "⠚",
+      "unicode": "U+281A"
+    },
+    {
+      "id": "letter_k",
+      "category": "alphabet",
+      "subcategory": "basic",
+      "print": "k",
+      "dots": [
+        "13"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "letter",
+        "alphabetic"
+      ],
+      "note": "",
+      "braille": "⠅",
+      "unicode": "U+2805"
+    },
+    {
+      "id": "letter_l",
+      "category": "alphabet",
+      "subcategory": "basic",
+      "print": "l",
+      "dots": [
+        "123"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "letter",
+        "alphabetic"
+      ],
+      "note": "",
+      "braille": "⠇",
+      "unicode": "U+2807"
+    },
+    {
+      "id": "letter_m",
+      "category": "alphabet",
+      "subcategory": "basic",
+      "print": "m",
+      "dots": [
+        "134"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "letter",
+        "alphabetic"
+      ],
+      "note": "",
+      "braille": "⠍",
+      "unicode": "U+280D"
+    },
+    {
+      "id": "letter_n",
+      "category": "alphabet",
+      "subcategory": "basic",
+      "print": "n",
+      "dots": [
+        "1345"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "letter",
+        "alphabetic"
+      ],
+      "note": "",
+      "braille": "⠝",
+      "unicode": "U+281D"
+    },
+    {
+      "id": "letter_o",
+      "category": "alphabet",
+      "subcategory": "basic",
+      "print": "o",
+      "dots": [
+        "135"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "letter",
+        "alphabetic"
+      ],
+      "note": "",
+      "braille": "⠕",
+      "unicode": "U+2815"
+    },
+    {
+      "id": "letter_p",
+      "category": "alphabet",
+      "subcategory": "basic",
+      "print": "p",
+      "dots": [
+        "1234"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "letter",
+        "alphabetic"
+      ],
+      "note": "",
+      "braille": "⠏",
+      "unicode": "U+280F"
+    },
+    {
+      "id": "letter_q",
+      "category": "alphabet",
+      "subcategory": "basic",
+      "print": "q",
+      "dots": [
+        "12345"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "letter",
+        "alphabetic"
+      ],
+      "note": "",
+      "braille": "⠟",
+      "unicode": "U+281F"
+    },
+    {
+      "id": "letter_r",
+      "category": "alphabet",
+      "subcategory": "basic",
+      "print": "r",
+      "dots": [
+        "1235"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "letter",
+        "alphabetic"
+      ],
+      "note": "",
+      "braille": "⠗",
+      "unicode": "U+2817"
+    },
+    {
+      "id": "letter_s",
+      "category": "alphabet",
+      "subcategory": "basic",
+      "print": "s",
+      "dots": [
+        "234"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "letter",
+        "alphabetic"
+      ],
+      "note": "",
+      "braille": "⠎",
+      "unicode": "U+280E"
+    },
+    {
+      "id": "letter_t",
+      "category": "alphabet",
+      "subcategory": "basic",
+      "print": "t",
+      "dots": [
+        "2345"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "letter",
+        "alphabetic"
+      ],
+      "note": "",
+      "braille": "⠞",
+      "unicode": "U+281E"
+    },
+    {
+      "id": "letter_u",
+      "category": "alphabet",
+      "subcategory": "basic",
+      "print": "u",
+      "dots": [
+        "136"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "letter",
+        "alphabetic"
+      ],
+      "note": "",
+      "braille": "⠥",
+      "unicode": "U+2825"
+    },
+    {
+      "id": "letter_v",
+      "category": "alphabet",
+      "subcategory": "basic",
+      "print": "v",
+      "dots": [
+        "1236"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "letter",
+        "alphabetic"
+      ],
+      "note": "",
+      "braille": "⠧",
+      "unicode": "U+2827"
+    },
+    {
+      "id": "letter_w",
+      "category": "alphabet",
+      "subcategory": "basic",
+      "print": "w",
+      "dots": [
+        "2456"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "letter",
+        "alphabetic"
+      ],
+      "note": "",
+      "braille": "⠺",
+      "unicode": "U+283A"
+    },
+    {
+      "id": "letter_x",
+      "category": "alphabet",
+      "subcategory": "basic",
+      "print": "x",
+      "dots": [
+        "1346"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "letter",
+        "alphabetic"
+      ],
+      "note": "",
+      "braille": "⠭",
+      "unicode": "U+282D"
+    },
+    {
+      "id": "letter_y",
+      "category": "alphabet",
+      "subcategory": "basic",
+      "print": "y",
+      "dots": [
+        "13456"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "letter",
+        "alphabetic"
+      ],
+      "note": "",
+      "braille": "⠽",
+      "unicode": "U+283D"
+    },
+    {
+      "id": "letter_z",
+      "category": "alphabet",
+      "subcategory": "basic",
+      "print": "z",
+      "dots": [
+        "1356"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "letter",
+      "tags": [
+        "letter",
+        "alphabetic"
+      ],
+      "note": "",
+      "braille": "⠵",
+      "unicode": "U+2835"
+    }
+  ]
+}

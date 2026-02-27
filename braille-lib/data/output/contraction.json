@@ -1,0 +1,4175 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "schema_version": "1.0",
+  "system_id": "ueb",
+  "system_name": "Unified English Braille",
+  "version": "2024 rules",
+  "source": "BANA/ICEB official",
+  "locale": "en",
+  "braille_type": "grade2",
+  "cell_size": 6,
+  "generated_at": "2026-02-27T01:38:00.432455+00:00",
+  "entries": [
+    {
+      "id": "alphabetic_b",
+      "category": "contraction",
+      "subcategory": "wordsigns",
+      "print": "but",
+      "dots": [
+        "12"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "wordsigns",
+        "whole word"
+      ],
+      "note": "",
+      "braille": "⠃",
+      "unicode": "U+2803"
+    },
+    {
+      "id": "alphabetic_c",
+      "category": "contraction",
+      "subcategory": "wordsigns",
+      "print": "can",
+      "dots": [
+        "14"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "wordsigns",
+        "whole word"
+      ],
+      "note": "",
+      "braille": "⠉",
+      "unicode": "U+2809"
+    },
+    {
+      "id": "alphabetic_d",
+      "category": "contraction",
+      "subcategory": "wordsigns",
+      "print": "do",
+      "dots": [
+        "145"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "wordsigns",
+        "whole word"
+      ],
+      "note": "",
+      "braille": "⠙",
+      "unicode": "U+2819"
+    },
+    {
+      "id": "alphabetic_e",
+      "category": "contraction",
+      "subcategory": "wordsigns",
+      "print": "every",
+      "dots": [
+        "15"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "wordsigns",
+        "whole word"
+      ],
+      "note": "",
+      "braille": "⠑",
+      "unicode": "U+2811"
+    },
+    {
+      "id": "alphabetic_f",
+      "category": "contraction",
+      "subcategory": "wordsigns",
+      "print": "from",
+      "dots": [
+        "124"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "wordsigns",
+        "whole word"
+      ],
+      "note": "",
+      "braille": "⠋",
+      "unicode": "U+280B"
+    },
+    {
+      "id": "alphabetic_g",
+      "category": "contraction",
+      "subcategory": "wordsigns",
+      "print": "go",
+      "dots": [
+        "1245"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "wordsigns",
+        "whole word"
+      ],
+      "note": "",
+      "braille": "⠛",
+      "unicode": "U+281B"
+    },
+    {
+      "id": "alphabetic_h",
+      "category": "contraction",
+      "subcategory": "wordsigns",
+      "print": "have",
+      "dots": [
+        "125"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "wordsigns",
+        "whole word"
+      ],
+      "note": "",
+      "braille": "⠓",
+      "unicode": "U+2813"
+    },
+    {
+      "id": "alphabetic_j",
+      "category": "contraction",
+      "subcategory": "wordsigns",
+      "print": "just",
+      "dots": [
+        "245"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "wordsigns",
+        "whole word"
+      ],
+      "note": "",
+      "braille": "⠚",
+      "unicode": "U+281A"
+    },
+    {
+      "id": "alphabetic_k",
+      "category": "contraction",
+      "subcategory": "wordsigns",
+      "print": "knowledge",
+      "dots": [
+        "13"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "wordsigns",
+        "whole word"
+      ],
+      "note": "",
+      "braille": "⠅",
+      "unicode": "U+2805"
+    },
+    {
+      "id": "alphabetic_l",
+      "category": "contraction",
+      "subcategory": "wordsigns",
+      "print": "like",
+      "dots": [
+        "123"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "wordsigns",
+        "whole word"
+      ],
+      "note": "",
+      "braille": "⠇",
+      "unicode": "U+2807"
+    },
+    {
+      "id": "alphabetic_m",
+      "category": "contraction",
+      "subcategory": "wordsigns",
+      "print": "more",
+      "dots": [
+        "134"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "wordsigns",
+        "whole word"
+      ],
+      "note": "",
+      "braille": "⠍",
+      "unicode": "U+280D"
+    },
+    {
+      "id": "alphabetic_n",
+      "category": "contraction",
+      "subcategory": "wordsigns",
+      "print": "not",
+      "dots": [
+        "1345"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "wordsigns",
+        "whole word"
+      ],
+      "note": "",
+      "braille": "⠝",
+      "unicode": "U+281D"
+    },
+    {
+      "id": "alphabetic_p",
+      "category": "contraction",
+      "subcategory": "wordsigns",
+      "print": "people",
+      "dots": [
+        "1234"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "wordsigns",
+        "whole word"
+      ],
+      "note": "",
+      "braille": "⠏",
+      "unicode": "U+280F"
+    },
+    {
+      "id": "alphabetic_q",
+      "category": "contraction",
+      "subcategory": "wordsigns",
+      "print": "quite",
+      "dots": [
+        "12345"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "wordsigns",
+        "whole word"
+      ],
+      "note": "",
+      "braille": "⠟",
+      "unicode": "U+281F"
+    },
+    {
+      "id": "alphabetic_r",
+      "category": "contraction",
+      "subcategory": "wordsigns",
+      "print": "rather",
+      "dots": [
+        "1235"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "wordsigns",
+        "whole word"
+      ],
+      "note": "",
+      "braille": "⠗",
+      "unicode": "U+2817"
+    },
+    {
+      "id": "alphabetic_s",
+      "category": "contraction",
+      "subcategory": "wordsigns",
+      "print": "so",
+      "dots": [
+        "234"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "wordsigns",
+        "whole word"
+      ],
+      "note": "",
+      "braille": "⠎",
+      "unicode": "U+280E"
+    },
+    {
+      "id": "alphabetic_t",
+      "category": "contraction",
+      "subcategory": "wordsigns",
+      "print": "that",
+      "dots": [
+        "2345"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "wordsigns",
+        "whole word"
+      ],
+      "note": "",
+      "braille": "⠞",
+      "unicode": "U+281E"
+    },
+    {
+      "id": "alphabetic_u",
+      "category": "contraction",
+      "subcategory": "wordsigns",
+      "print": "us",
+      "dots": [
+        "136"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "wordsigns",
+        "whole word"
+      ],
+      "note": "",
+      "braille": "⠥",
+      "unicode": "U+2825"
+    },
+    {
+      "id": "alphabetic_v",
+      "category": "contraction",
+      "subcategory": "wordsigns",
+      "print": "very",
+      "dots": [
+        "1236"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "wordsigns",
+        "whole word"
+      ],
+      "note": "",
+      "braille": "⠧",
+      "unicode": "U+2827"
+    },
+    {
+      "id": "alphabetic_w",
+      "category": "contraction",
+      "subcategory": "wordsigns",
+      "print": "will",
+      "dots": [
+        "2456"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "wordsigns",
+        "whole word"
+      ],
+      "note": "",
+      "braille": "⠺",
+      "unicode": "U+283A"
+    },
+    {
+      "id": "alphabetic_x",
+      "category": "contraction",
+      "subcategory": "wordsigns",
+      "print": "it",
+      "dots": [
+        "1346"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "wordsigns",
+        "whole word"
+      ],
+      "note": "",
+      "braille": "⠭",
+      "unicode": "U+282D"
+    },
+    {
+      "id": "alphabetic_y",
+      "category": "contraction",
+      "subcategory": "wordsigns",
+      "print": "you",
+      "dots": [
+        "13456"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "wordsigns",
+        "whole word"
+      ],
+      "note": "",
+      "braille": "⠽",
+      "unicode": "U+283D"
+    },
+    {
+      "id": "alphabetic_z",
+      "category": "contraction",
+      "subcategory": "wordsigns",
+      "print": "as",
+      "dots": [
+        "1356"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "wordsigns",
+        "whole word"
+      ],
+      "note": "",
+      "braille": "⠵",
+      "unicode": "U+2835"
+    },
+    {
+      "id": "strong_and",
+      "category": "contraction",
+      "subcategory": "strong",
+      "print": "and",
+      "dots": [
+        "12346"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "wordsigns",
+        "part and whole word"
+      ],
+      "note": "",
+      "braille": "⠯",
+      "unicode": "U+282F"
+    },
+    {
+      "id": "strong_for",
+      "category": "contraction",
+      "subcategory": "strong",
+      "print": "for",
+      "dots": [
+        "123456"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "wordsigns",
+        "part and whole word"
+      ],
+      "note": "",
+      "braille": "⠿",
+      "unicode": "U+283F"
+    },
+    {
+      "id": "strong_of",
+      "category": "contraction",
+      "subcategory": "strong",
+      "print": "of",
+      "dots": [
+        "12356"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "wordsigns",
+        "part and whole word"
+      ],
+      "note": "",
+      "braille": "⠷",
+      "unicode": "U+2837"
+    },
+    {
+      "id": "strong_the",
+      "category": "contraction",
+      "subcategory": "strong",
+      "print": "the",
+      "dots": [
+        "2346"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "wordsigns",
+        "part and whole word"
+      ],
+      "note": "",
+      "braille": "⠮",
+      "unicode": "U+282E"
+    },
+    {
+      "id": "strong_with",
+      "category": "contraction",
+      "subcategory": "strong",
+      "print": "with",
+      "dots": [
+        "23456"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "wordsigns",
+        "part and whole word"
+      ],
+      "note": "",
+      "braille": "⠾",
+      "unicode": "U+283E"
+    },
+    {
+      "id": "strong_child",
+      "category": "contraction",
+      "subcategory": "strong",
+      "print": "child",
+      "dots": [
+        "16"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "wordsigns",
+      "tags": [
+        "contraction",
+        "wordsigns"
+      ],
+      "note": "",
+      "braille": "⠡",
+      "unicode": "U+2821"
+    },
+    {
+      "id": "strong_shall",
+      "category": "contraction",
+      "subcategory": "strong",
+      "print": "shall",
+      "dots": [
+        "146"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "wordsigns",
+      "tags": [
+        "contraction",
+        "wordsigns"
+      ],
+      "note": "",
+      "braille": "⠩",
+      "unicode": "U+2829"
+    },
+    {
+      "id": "strong_this",
+      "category": "contraction",
+      "subcategory": "strong",
+      "print": "this",
+      "dots": [
+        "1456"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "wordsigns",
+      "tags": [
+        "contraction",
+        "wordsigns"
+      ],
+      "note": "",
+      "braille": "⠹",
+      "unicode": "U+2839"
+    },
+    {
+      "id": "strong_which",
+      "category": "contraction",
+      "subcategory": "strong",
+      "print": "which",
+      "dots": [
+        "156"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "wordsigns",
+      "tags": [
+        "contraction",
+        "wordsigns"
+      ],
+      "note": "",
+      "braille": "⠱",
+      "unicode": "U+2831"
+    },
+    {
+      "id": "strong_out",
+      "category": "contraction",
+      "subcategory": "strong",
+      "print": "out",
+      "dots": [
+        "1256"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "wordsigns",
+      "tags": [
+        "contraction",
+        "wordsigns"
+      ],
+      "note": "",
+      "braille": "⠳",
+      "unicode": "U+2833"
+    },
+    {
+      "id": "strong_still",
+      "category": "contraction",
+      "subcategory": "strong",
+      "print": "still",
+      "dots": [
+        "34"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "wordsigns",
+      "tags": [
+        "contraction",
+        "wordsigns"
+      ],
+      "note": "",
+      "braille": "⠌",
+      "unicode": "U+280C"
+    },
+    {
+      "id": "strong_ch",
+      "category": "groupsigns",
+      "subcategory": "strong",
+      "print": "ch",
+      "dots": [
+        "16"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "groupsigns",
+      "tags": [
+        "contraction",
+        "groupsigns"
+      ],
+      "note": "",
+      "braille": "⠡",
+      "unicode": "U+2821"
+    },
+    {
+      "id": "strong_sh",
+      "category": "groupsigns",
+      "subcategory": "strong",
+      "print": "sh",
+      "dots": [
+        "146"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "groupsigns",
+      "tags": [
+        "contraction",
+        "groupsigns"
+      ],
+      "note": "",
+      "braille": "⠩",
+      "unicode": "U+2829"
+    },
+    {
+      "id": "strong_th",
+      "category": "groupsigns",
+      "subcategory": "strong",
+      "print": "th",
+      "dots": [
+        "1456"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "groupsigns",
+      "tags": [
+        "contraction",
+        "groupsigns"
+      ],
+      "note": "",
+      "braille": "⠹",
+      "unicode": "U+2839"
+    },
+    {
+      "id": "strong_wh",
+      "category": "groupsigns",
+      "subcategory": "strong",
+      "print": "wh",
+      "dots": [
+        "156"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "groupsigns",
+      "tags": [
+        "contraction",
+        "groupsigns"
+      ],
+      "note": "",
+      "braille": "⠱",
+      "unicode": "U+2831"
+    },
+    {
+      "id": "strong_ou",
+      "category": "groupsigns",
+      "subcategory": "strong",
+      "print": "ou",
+      "dots": [
+        "1256"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "groupsigns",
+      "tags": [
+        "contraction",
+        "groupsigns"
+      ],
+      "note": "",
+      "braille": "⠳",
+      "unicode": "U+2833"
+    },
+    {
+      "id": "strong_st",
+      "category": "groupsigns",
+      "subcategory": "strong",
+      "print": "st",
+      "dots": [
+        "34"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "groupsigns",
+      "tags": [
+        "contraction",
+        "groupsigns"
+      ],
+      "note": "",
+      "braille": "⠌",
+      "unicode": "U+280C"
+    },
+    {
+      "id": "strong_gh",
+      "category": "groupsigns",
+      "subcategory": "strong",
+      "print": "gh",
+      "dots": [
+        "126"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "groupsigns",
+      "tags": [
+        "contraction",
+        "groupsigns"
+      ],
+      "note": "",
+      "braille": "⠣",
+      "unicode": "U+2823"
+    },
+    {
+      "id": "strong_ed",
+      "category": "groupsigns",
+      "subcategory": "strong",
+      "print": "ed",
+      "dots": [
+        "1246"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "groupsigns",
+      "tags": [
+        "contraction",
+        "groupsigns"
+      ],
+      "note": "",
+      "braille": "⠫",
+      "unicode": "U+282B"
+    },
+    {
+      "id": "strong_er",
+      "category": "groupsigns",
+      "subcategory": "strong",
+      "print": "er",
+      "dots": [
+        "12456"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "groupsigns",
+      "tags": [
+        "contraction",
+        "groupsigns"
+      ],
+      "note": "",
+      "braille": "⠻",
+      "unicode": "U+283B"
+    },
+    {
+      "id": "strong_ow",
+      "category": "groupsigns",
+      "subcategory": "strong",
+      "print": "ow",
+      "dots": [
+        "246"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "groupsigns",
+      "tags": [
+        "contraction",
+        "groupsigns"
+      ],
+      "note": "",
+      "braille": "⠪",
+      "unicode": "U+282A"
+    },
+    {
+      "id": "strong_ar",
+      "category": "groupsigns",
+      "subcategory": "strong",
+      "print": "ar",
+      "dots": [
+        "345"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "groupsigns",
+      "tags": [
+        "contraction",
+        "groupsigns"
+      ],
+      "note": "",
+      "braille": "⠜",
+      "unicode": "U+281C"
+    },
+    {
+      "id": "strong_ing",
+      "category": "groupsigns",
+      "subcategory": "strong",
+      "print": "ing",
+      "dots": [
+        "346"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "groupsigns",
+      "tags": [
+        "contraction",
+        "groupsigns"
+      ],
+      "note": "",
+      "braille": "⠬",
+      "unicode": "U+282C"
+    },
+    {
+      "id": "lower_ea",
+      "category": "groupsigns",
+      "subcategory": "lower",
+      "print": "ea",
+      "dots": [
+        "2"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "groupsigns",
+      "tags": [
+        "contraction",
+        "groupsigns"
+      ],
+      "note": "",
+      "braille": "⠂",
+      "unicode": "U+2802"
+    },
+    {
+      "id": "lower_bb",
+      "category": "groupsigns",
+      "subcategory": "lower",
+      "print": "bb",
+      "dots": [
+        "23"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "groupsigns",
+      "tags": [
+        "contraction",
+        "groupsigns"
+      ],
+      "note": "",
+      "braille": "⠆",
+      "unicode": "U+2806"
+    },
+    {
+      "id": "lower_cc",
+      "category": "groupsigns",
+      "subcategory": "lower",
+      "print": "cc",
+      "dots": [
+        "25"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "groupsigns",
+      "tags": [
+        "contraction",
+        "groupsigns"
+      ],
+      "note": "",
+      "braille": "⠒",
+      "unicode": "U+2812"
+    },
+    {
+      "id": "lower_ff",
+      "category": "groupsigns",
+      "subcategory": "lower",
+      "print": "ff",
+      "dots": [
+        "235"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "groupsigns",
+      "tags": [
+        "contraction",
+        "groupsigns"
+      ],
+      "note": "",
+      "braille": "⠖",
+      "unicode": "U+2816"
+    },
+    {
+      "id": "lower_gg",
+      "category": "groupsigns",
+      "subcategory": "lower",
+      "print": "gg",
+      "dots": [
+        "2345"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "groupsigns",
+      "tags": [
+        "contraction",
+        "groupsigns"
+      ],
+      "note": "",
+      "braille": "⠞",
+      "unicode": "U+281E"
+    },
+    {
+      "id": "lower_be",
+      "category": "groupsigns",
+      "subcategory": "lower",
+      "print": "be",
+      "dots": [
+        "23"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "groupsigns",
+      "tags": [
+        "contraction",
+        "groupsigns"
+      ],
+      "note": "",
+      "braille": "⠆",
+      "unicode": "U+2806"
+    },
+    {
+      "id": "lower_con",
+      "category": "groupsigns",
+      "subcategory": "lower",
+      "print": "con",
+      "dots": [
+        "25"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "groupsigns",
+      "tags": [
+        "contraction",
+        "groupsigns"
+      ],
+      "note": "",
+      "braille": "⠒",
+      "unicode": "U+2812"
+    },
+    {
+      "id": "lower_dis",
+      "category": "groupsigns",
+      "subcategory": "lower",
+      "print": "dis",
+      "dots": [
+        "256"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "groupsigns",
+      "tags": [
+        "contraction",
+        "groupsigns"
+      ],
+      "note": "",
+      "braille": "⠲",
+      "unicode": "U+2832"
+    },
+    {
+      "id": "lower_en",
+      "category": "groupsigns",
+      "subcategory": "lower",
+      "print": "en",
+      "dots": [
+        "26"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "groupsigns",
+      "tags": [
+        "contraction",
+        "groupsigns"
+      ],
+      "note": "",
+      "braille": "⠢",
+      "unicode": "U+2822"
+    },
+    {
+      "id": "lower_in",
+      "category": "groupsigns",
+      "subcategory": "lower",
+      "print": "in",
+      "dots": [
+        "35"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "groupsigns",
+      "tags": [
+        "contraction",
+        "groupsigns"
+      ],
+      "note": "",
+      "braille": "⠔",
+      "unicode": "U+2814"
+    },
+    {
+      "id": "lower_enough",
+      "category": "contraction",
+      "subcategory": "lower",
+      "print": "enough",
+      "dots": [
+        "26"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "wordsigns",
+      "tags": [
+        "contraction",
+        "wordsigns"
+      ],
+      "note": "",
+      "braille": "⠢",
+      "unicode": "U+2822"
+    },
+    {
+      "id": "lower_were",
+      "category": "contraction",
+      "subcategory": "lower",
+      "print": "were",
+      "dots": [
+        "2356"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "wordsigns",
+      "tags": [
+        "contraction",
+        "wordsigns"
+      ],
+      "note": "",
+      "braille": "⠶",
+      "unicode": "U+2836"
+    },
+    {
+      "id": "lower_his",
+      "category": "contraction",
+      "subcategory": "lower",
+      "print": "his",
+      "dots": [
+        "236"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "wordsigns",
+      "tags": [
+        "contraction",
+        "wordsigns"
+      ],
+      "note": "",
+      "braille": "⠦",
+      "unicode": "U+2826"
+    },
+    {
+      "id": "lower_in",
+      "category": "contraction",
+      "subcategory": "lower",
+      "print": "in",
+      "dots": [
+        "35"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "wordsigns",
+      "tags": [
+        "contraction",
+        "wordsigns"
+      ],
+      "note": "",
+      "braille": "⠔",
+      "unicode": "U+2814"
+    },
+    {
+      "id": "lower_was",
+      "category": "contraction",
+      "subcategory": "lower",
+      "print": "was",
+      "dots": [
+        "356"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "wordsigns",
+      "tags": [
+        "contraction",
+        "wordsigns"
+      ],
+      "note": "",
+      "braille": "⠴",
+      "unicode": "U+2834"
+    },
+    {
+      "id": "initial_letter_day",
+      "category": "contraction",
+      "subcategory": "initial letter",
+      "print": "day",
+      "dots": [
+        "5",
+        "145"
+      ],
+      "context": {
+        "position": "initial",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "initial letter"
+      ],
+      "note": "",
+      "braille": "⠙",
+      "unicode": "U+2819"
+    },
+    {
+      "id": "initial_letter_ever",
+      "category": "contraction",
+      "subcategory": "initial letter",
+      "print": "ever",
+      "dots": [
+        "5",
+        "15"
+      ],
+      "context": {
+        "position": "initial",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "initial letter"
+      ],
+      "note": "",
+      "braille": "⠑",
+      "unicode": "U+2811"
+    },
+    {
+      "id": "initial_letter_father",
+      "category": "contraction",
+      "subcategory": "initial letter",
+      "print": "father",
+      "dots": [
+        "5",
+        "124"
+      ],
+      "context": {
+        "position": "initial",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "initial letter"
+      ],
+      "note": "",
+      "braille": "⠛",
+      "unicode": "U+281B"
+    },
+    {
+      "id": "initial_letter_here",
+      "category": "contraction",
+      "subcategory": "initial letter",
+      "print": "here",
+      "dots": [
+        "5",
+        "125"
+      ],
+      "context": {
+        "position": "initial",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "initial letter"
+      ],
+      "note": "",
+      "braille": "⠓",
+      "unicode": "U+2813"
+    },
+    {
+      "id": "initial_letter_know",
+      "category": "contraction",
+      "subcategory": "initial letter",
+      "print": "know",
+      "dots": [
+        "5",
+        "13"
+      ],
+      "context": {
+        "position": "initial",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "initial letter"
+      ],
+      "note": "",
+      "braille": "⠕",
+      "unicode": "U+2815"
+    },
+    {
+      "id": "initial_letter_lord",
+      "category": "contraction",
+      "subcategory": "initial letter",
+      "print": "lord",
+      "dots": [
+        "5",
+        "123"
+      ],
+      "context": {
+        "position": "initial",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "initial letter"
+      ],
+      "note": "",
+      "braille": "⠗",
+      "unicode": "U+2817"
+    },
+    {
+      "id": "initial_letter_mother",
+      "category": "contraction",
+      "subcategory": "initial letter",
+      "print": "mother",
+      "dots": [
+        "5",
+        "134"
+      ],
+      "context": {
+        "position": "initial",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "initial letter"
+      ],
+      "note": "",
+      "braille": "⠝",
+      "unicode": "U+281D"
+    },
+    {
+      "id": "initial_letter_name",
+      "category": "contraction",
+      "subcategory": "initial letter",
+      "print": "name",
+      "dots": [
+        "5",
+        "1345"
+      ],
+      "context": {
+        "position": "initial",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "initial letter"
+      ],
+      "note": "",
+      "braille": "⠝",
+      "unicode": "U+281D"
+    },
+    {
+      "id": "initial_letter_one",
+      "category": "contraction",
+      "subcategory": "initial letter",
+      "print": "one",
+      "dots": [
+        "5",
+        "135"
+      ],
+      "context": {
+        "position": "initial",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "initial letter"
+      ],
+      "note": "",
+      "braille": "⠕",
+      "unicode": "U+2815"
+    },
+    {
+      "id": "initial_letter_part",
+      "category": "contraction",
+      "subcategory": "initial letter",
+      "print": "part",
+      "dots": [
+        "5",
+        "1234"
+      ],
+      "context": {
+        "position": "initial",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "initial letter"
+      ],
+      "note": "",
+      "braille": "⠟",
+      "unicode": "U+281F"
+    },
+    {
+      "id": "initial_letter_question",
+      "category": "contraction",
+      "subcategory": "initial letter",
+      "print": "question",
+      "dots": [
+        "5",
+        "12345"
+      ],
+      "context": {
+        "position": "initial",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "initial letter"
+      ],
+      "note": "",
+      "braille": "⠟",
+      "unicode": "U+281F"
+    },
+    {
+      "id": "initial_letter_right",
+      "category": "contraction",
+      "subcategory": "initial letter",
+      "print": "right",
+      "dots": [
+        "5",
+        "1235"
+      ],
+      "context": {
+        "position": "initial",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "initial letter"
+      ],
+      "note": "",
+      "braille": "⠗",
+      "unicode": "U+2817"
+    },
+    {
+      "id": "initial_letter_some",
+      "category": "contraction",
+      "subcategory": "initial letter",
+      "print": "some",
+      "dots": [
+        "5",
+        "234"
+      ],
+      "context": {
+        "position": "initial",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "initial letter"
+      ],
+      "note": "",
+      "braille": "⠞",
+      "unicode": "U+281E"
+    },
+    {
+      "id": "initial_letter_time",
+      "category": "contraction",
+      "subcategory": "initial letter",
+      "print": "time",
+      "dots": [
+        "5",
+        "2345"
+      ],
+      "context": {
+        "position": "initial",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "initial letter"
+      ],
+      "note": "",
+      "braille": "⠞",
+      "unicode": "U+281E"
+    },
+    {
+      "id": "initial_letter_under",
+      "category": "contraction",
+      "subcategory": "initial letter",
+      "print": "under",
+      "dots": [
+        "5",
+        "136"
+      ],
+      "context": {
+        "position": "initial",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "initial letter"
+      ],
+      "note": "",
+      "braille": "⠵",
+      "unicode": "U+2835"
+    },
+    {
+      "id": "initial_letter_work",
+      "category": "contraction",
+      "subcategory": "initial letter",
+      "print": "work",
+      "dots": [
+        "5",
+        "2456"
+      ],
+      "context": {
+        "position": "initial",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "initial letter"
+      ],
+      "note": "",
+      "braille": "⠺",
+      "unicode": "U+283A"
+    },
+    {
+      "id": "initial_letter_young",
+      "category": "contraction",
+      "subcategory": "initial letter",
+      "print": "young",
+      "dots": [
+        "5",
+        "13456"
+      ],
+      "context": {
+        "position": "initial",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "initial letter"
+      ],
+      "note": "",
+      "braille": "⠽",
+      "unicode": "U+283D"
+    },
+    {
+      "id": "initial_letter_there",
+      "category": "contraction",
+      "subcategory": "initial letter",
+      "print": "there",
+      "dots": [
+        "5",
+        "2346"
+      ],
+      "context": {
+        "position": "initial",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "initial letter"
+      ],
+      "note": "",
+      "braille": "⠾",
+      "unicode": "U+283E"
+    },
+    {
+      "id": "initial_letter_character",
+      "category": "contraction",
+      "subcategory": "initial letter",
+      "print": "character",
+      "dots": [
+        "5",
+        "16"
+      ],
+      "context": {
+        "position": "initial",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "initial letter"
+      ],
+      "note": "",
+      "braille": "⠱",
+      "unicode": "U+2831"
+    },
+    {
+      "id": "initial_letter_through",
+      "category": "contraction",
+      "subcategory": "initial letter",
+      "print": "through",
+      "dots": [
+        "5",
+        "1456"
+      ],
+      "context": {
+        "position": "initial",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "initial letter"
+      ],
+      "note": "",
+      "braille": "⠹",
+      "unicode": "U+2839"
+    },
+    {
+      "id": "initial_letter_where",
+      "category": "contraction",
+      "subcategory": "initial letter",
+      "print": "where",
+      "dots": [
+        "5",
+        "156"
+      ],
+      "context": {
+        "position": "initial",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "initial letter"
+      ],
+      "note": "",
+      "braille": "⠱",
+      "unicode": "U+2831"
+    },
+    {
+      "id": "initial_letter_ought",
+      "category": "contraction",
+      "subcategory": "initial letter",
+      "print": "ought",
+      "dots": [
+        "5",
+        "1256"
+      ],
+      "context": {
+        "position": "initial",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "initial letter"
+      ],
+      "note": "",
+      "braille": "⠳",
+      "unicode": "U+2833"
+    },
+    {
+      "id": "initial_letter_upon",
+      "category": "contraction",
+      "subcategory": "initial letter",
+      "print": "upon",
+      "dots": [
+        "45",
+        "136"
+      ],
+      "context": {
+        "position": "initial",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "initial letter"
+      ],
+      "note": "",
+      "braille": "⠽",
+      "unicode": "U+283D"
+    },
+    {
+      "id": "initial_letter_word",
+      "category": "contraction",
+      "subcategory": "initial letter",
+      "print": "word",
+      "dots": [
+        "45",
+        "2456"
+      ],
+      "context": {
+        "position": "initial",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "initial letter"
+      ],
+      "note": "",
+      "braille": "⠺",
+      "unicode": "U+283A"
+    },
+    {
+      "id": "initial_letter_these",
+      "category": "contraction",
+      "subcategory": "initial letter",
+      "print": "these",
+      "dots": [
+        "45",
+        "2346"
+      ],
+      "context": {
+        "position": "initial",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "initial letter"
+      ],
+      "note": "",
+      "braille": "⠾",
+      "unicode": "U+283E"
+    },
+    {
+      "id": "initial_letter_those",
+      "category": "contraction",
+      "subcategory": "initial letter",
+      "print": "those",
+      "dots": [
+        "45",
+        "1456"
+      ],
+      "context": {
+        "position": "initial",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "initial letter"
+      ],
+      "note": "",
+      "braille": "⠹",
+      "unicode": "U+2839"
+    },
+    {
+      "id": "initial_letter_whose",
+      "category": "contraction",
+      "subcategory": "initial letter",
+      "print": "whose",
+      "dots": [
+        "45",
+        "156"
+      ],
+      "context": {
+        "position": "initial",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "initial letter"
+      ],
+      "note": "",
+      "braille": "⠹",
+      "unicode": "U+2839"
+    },
+    {
+      "id": "initial_letter_cannot",
+      "category": "contraction",
+      "subcategory": "initial letter",
+      "print": "cannot",
+      "dots": [
+        "456",
+        "14"
+      ],
+      "context": {
+        "position": "initial",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "initial letter"
+      ],
+      "note": "",
+      "braille": "⠹",
+      "unicode": "U+2839"
+    },
+    {
+      "id": "initial_letter_had",
+      "category": "contraction",
+      "subcategory": "initial letter",
+      "print": "cannot",
+      "dots": [
+        "456",
+        "125"
+      ],
+      "context": {
+        "position": "initial",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "initial letter"
+      ],
+      "note": "",
+      "braille": "⠻",
+      "unicode": "U+283B"
+    },
+    {
+      "id": "initial_letter_many",
+      "category": "contraction",
+      "subcategory": "initial letter",
+      "print": "many",
+      "dots": [
+        "456",
+        "134"
+      ],
+      "context": {
+        "position": "initial",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "initial letter"
+      ],
+      "note": "",
+      "braille": "⠽",
+      "unicode": "U+283D"
+    },
+    {
+      "id": "initial_letter_sprit",
+      "category": "contraction",
+      "subcategory": "initial letter",
+      "print": "sprit",
+      "dots": [
+        "456",
+        "234"
+      ],
+      "context": {
+        "position": "initial",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "initial letter"
+      ],
+      "note": "",
+      "braille": "⠾",
+      "unicode": "U+283E"
+    },
+    {
+      "id": "initial_letter_world",
+      "category": "contraction",
+      "subcategory": "initial letter",
+      "print": "world",
+      "dots": [
+        "456",
+        "2456"
+      ],
+      "context": {
+        "position": "initial",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "initial letter"
+      ],
+      "note": "",
+      "braille": "⠺",
+      "unicode": "U+283A"
+    },
+    {
+      "id": "initial_letter_their",
+      "category": "contraction",
+      "subcategory": "initial letter",
+      "print": "their",
+      "dots": [
+        "456",
+        "2346"
+      ],
+      "context": {
+        "position": "initial",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "initial letter"
+      ],
+      "note": "",
+      "braille": "⠾",
+      "unicode": "U+283E"
+    },
+    {
+      "id": "final_letter_ound",
+      "category": "contraction",
+      "subcategory": "final letter",
+      "print": "ound",
+      "dots": [
+        "46",
+        "145"
+      ],
+      "context": {
+        "position": "final",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "final letter"
+      ],
+      "note": "",
+      "braille": "⠹",
+      "unicode": "U+2839"
+    },
+    {
+      "id": "final_letter_ance",
+      "category": "contraction",
+      "subcategory": "final letter",
+      "print": "ance",
+      "dots": [
+        "46",
+        "15"
+      ],
+      "context": {
+        "position": "final",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "final letter"
+      ],
+      "note": "",
+      "braille": "⠹",
+      "unicode": "U+2839"
+    },
+    {
+      "id": "final_letter_sion",
+      "category": "contraction",
+      "subcategory": "final letter",
+      "print": "sion",
+      "dots": [
+        "46",
+        "1345"
+      ],
+      "context": {
+        "position": "final",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "final letter"
+      ],
+      "note": "",
+      "braille": "⠽",
+      "unicode": "U+283D"
+    },
+    {
+      "id": "final_letter_less",
+      "category": "contraction",
+      "subcategory": "final letter",
+      "print": "less",
+      "dots": [
+        "46",
+        "234"
+      ],
+      "context": {
+        "position": "final",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "final letter"
+      ],
+      "note": "",
+      "braille": "⠮",
+      "unicode": "U+282E"
+    },
+    {
+      "id": "final_letter_ount",
+      "category": "contraction",
+      "subcategory": "final letter",
+      "print": "ount",
+      "dots": [
+        "46",
+        "2345"
+      ],
+      "context": {
+        "position": "final",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "final letter"
+      ],
+      "note": "",
+      "braille": "⠾",
+      "unicode": "U+283E"
+    },
+    {
+      "id": "final_letter_ence",
+      "category": "contraction",
+      "subcategory": "final letter",
+      "print": "ence",
+      "dots": [
+        "56",
+        "15"
+      ],
+      "context": {
+        "position": "final",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "final letter"
+      ],
+      "note": "",
+      "braille": "⠱",
+      "unicode": "U+2831"
+    },
+    {
+      "id": "final_letter_ong",
+      "category": "contraction",
+      "subcategory": "final letter",
+      "print": "ong",
+      "dots": [
+        "56",
+        "1245"
+      ],
+      "context": {
+        "position": "final",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "final letter"
+      ],
+      "note": "",
+      "braille": "⠻",
+      "unicode": "U+283B"
+    },
+    {
+      "id": "final_letter_full",
+      "category": "contraction",
+      "subcategory": "final letter",
+      "print": "full",
+      "dots": [
+        "56",
+        "123"
+      ],
+      "context": {
+        "position": "final",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "final letter"
+      ],
+      "note": "",
+      "braille": "⠷",
+      "unicode": "U+2837"
+    },
+    {
+      "id": "final_letter_tion",
+      "category": "contraction",
+      "subcategory": "final letter",
+      "print": "tion",
+      "dots": [
+        "56",
+        "1345"
+      ],
+      "context": {
+        "position": "final",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "final letter"
+      ],
+      "note": "",
+      "braille": "⠽",
+      "unicode": "U+283D"
+    },
+    {
+      "id": "final_letter_ness",
+      "category": "contraction",
+      "subcategory": "final letter",
+      "print": "ness",
+      "dots": [
+        "56",
+        "234"
+      ],
+      "context": {
+        "position": "final",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "final letter"
+      ],
+      "note": "",
+      "braille": "⠾",
+      "unicode": "U+283E"
+    },
+    {
+      "id": "final_letter_ment",
+      "category": "contraction",
+      "subcategory": "final letter",
+      "print": "ment",
+      "dots": [
+        "56",
+        "2345"
+      ],
+      "context": {
+        "position": "final",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "final letter"
+      ],
+      "note": "",
+      "braille": "⠾",
+      "unicode": "U+283E"
+    },
+    {
+      "id": "final_letter_ity",
+      "category": "contraction",
+      "subcategory": "final letter",
+      "print": "ity",
+      "dots": [
+        "56",
+        "13456"
+      ],
+      "context": {
+        "position": "final",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "final letter"
+      ],
+      "note": "",
+      "braille": "⠽",
+      "unicode": "U+283D"
+    },
+    {
+      "id": "shortform_about",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "about",
+      "dots": [
+        "456",
+        "14"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠹",
+      "unicode": "U+2839"
+    },
+    {
+      "id": "shortform_above",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "above",
+      "dots": [
+        "1",
+        "12",
+        "1236"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠧",
+      "unicode": "U+2827"
+    },
+    {
+      "id": "shortform_according",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "according",
+      "dots": [
+        "1",
+        "14"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠉",
+      "unicode": "U+2809"
+    },
+    {
+      "id": "shortform_across",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "across",
+      "dots": [
+        "1",
+        "14",
+        "1235"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠟",
+      "unicode": "U+281F"
+    },
+    {
+      "id": "shortform_after",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "after",
+      "dots": [
+        "1",
+        "124"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠋",
+      "unicode": "U+280B"
+    },
+    {
+      "id": "shortform_afternoon",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "afternoon",
+      "dots": [
+        "1",
+        "124",
+        "1345"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠟",
+      "unicode": "U+281F"
+    },
+    {
+      "id": "shortform_afterward",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "afterward",
+      "dots": [
+        "1",
+        "14",
+        "2456"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠻",
+      "unicode": "U+283B"
+    },
+    {
+      "id": "shortform_again",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "again",
+      "dots": [
+        "1",
+        "1245"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠛",
+      "unicode": "U+281B"
+    },
+    {
+      "id": "shortform_against",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "against",
+      "dots": [
+        "1",
+        "1245",
+        "234",
+        "2345"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠟",
+      "unicode": "U+281F"
+    },
+    {
+      "id": "shortform_almost",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "almost",
+      "dots": [
+        "1",
+        "123",
+        "1235"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠗",
+      "unicode": "U+2817"
+    },
+    {
+      "id": "shortform_also",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "also",
+      "dots": [
+        "1",
+        "123"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠇",
+      "unicode": "U+2807"
+    },
+    {
+      "id": "shortform_although",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "alghough",
+      "dots": [
+        "1",
+        "123",
+        "2345",
+        "125"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠟",
+      "unicode": "U+281F"
+    },
+    {
+      "id": "shortform_altogether",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "altogether",
+      "dots": [
+        "1",
+        "123",
+        "2345"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠟",
+      "unicode": "U+281F"
+    },
+    {
+      "id": "shortform_always",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "always",
+      "dots": [
+        "1",
+        "123",
+        "2456"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠿",
+      "unicode": "U+283F"
+    },
+    {
+      "id": "shortform_because",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "because",
+      "dots": [
+        "12",
+        "15",
+        "14"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠛",
+      "unicode": "U+281B"
+    },
+    {
+      "id": "shortform_before",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "before",
+      "dots": [
+        "12",
+        "15",
+        "124"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠛",
+      "unicode": "U+281B"
+    },
+    {
+      "id": "shortform_behind",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "behind",
+      "dots": [
+        "12",
+        "15",
+        "14"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠛",
+      "unicode": "U+281B"
+    },
+    {
+      "id": "shortform_below",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "below",
+      "dots": [
+        "12",
+        "15",
+        "123"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠗",
+      "unicode": "U+2817"
+    },
+    {
+      "id": "shortform_beneath",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "beneath",
+      "dots": [
+        "12",
+        "15",
+        "1345"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠟",
+      "unicode": "U+281F"
+    },
+    {
+      "id": "shortform_beside",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "beside",
+      "dots": [
+        "12",
+        "15",
+        "234"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠟",
+      "unicode": "U+281F"
+    },
+    {
+      "id": "shortform_between",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "between",
+      "dots": [
+        "12",
+        "15",
+        "2345"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠟",
+      "unicode": "U+281F"
+    },
+    {
+      "id": "shortform_beyond",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "beyond",
+      "dots": [
+        "12",
+        "15",
+        "13456"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠿",
+      "unicode": "U+283F"
+    },
+    {
+      "id": "shortform_blind",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "blind",
+      "dots": [
+        "12",
+        "123"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠇",
+      "unicode": "U+2807"
+    },
+    {
+      "id": "shortform_braille",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "braille",
+      "dots": [
+        "12",
+        "1235",
+        "123"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠗",
+      "unicode": "U+2817"
+    },
+    {
+      "id": "shortform_children",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "children",
+      "dots": [
+        "14",
+        "125",
+        "1345"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠟",
+      "unicode": "U+281F"
+    },
+    {
+      "id": "shortform_conceive",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "conceive",
+      "dots": [
+        "14",
+        "135",
+        "1345",
+        "14",
+        "1236"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠿",
+      "unicode": "U+283F"
+    },
+    {
+      "id": "shortform_conceiving",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "conceiving",
+      "dots": [
+        "14",
+        "135",
+        "1345",
+        "14",
+        "1235",
+        "1245"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠟",
+      "unicode": "U+281F"
+    },
+    {
+      "id": "shortform_could",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "could",
+      "dots": [
+        "14",
+        "145"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠙",
+      "unicode": "U+2819"
+    },
+    {
+      "id": "shortform_deceive",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "deceive",
+      "dots": [
+        "145",
+        "14",
+        "1236"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠿",
+      "unicode": "U+283F"
+    },
+    {
+      "id": "shortform_deceiving",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "deceiving",
+      "dots": [
+        "145",
+        "14",
+        "1236",
+        "1245"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠿",
+      "unicode": "U+283F"
+    },
+    {
+      "id": "shortform_declare",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "declare",
+      "dots": [
+        "145",
+        "14",
+        "123"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠟",
+      "unicode": "U+281F"
+    },
+    {
+      "id": "shortform_declaring",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "declaring",
+      "dots": [
+        "145",
+        "14",
+        "123",
+        "1245"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠟",
+      "unicode": "U+281F"
+    },
+    {
+      "id": "shortform_either",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "either",
+      "dots": [
+        "15",
+        "24"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠛",
+      "unicode": "U+281B"
+    },
+    {
+      "id": "shortform_first",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "first",
+      "dots": [
+        "124",
+        "125",
+        "2345"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠟",
+      "unicode": "U+281F"
+    },
+    {
+      "id": "shortform_friend",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "friend",
+      "dots": [
+        "124",
+        "1235"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠟",
+      "unicode": "U+281F"
+    },
+    {
+      "id": "shortform_good",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "good",
+      "dots": [
+        "1245",
+        "145"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠛",
+      "unicode": "U+281B"
+    },
+    {
+      "id": "shortform_great",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "great",
+      "dots": [
+        "1245",
+        "1235",
+        "2345"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠟",
+      "unicode": "U+281F"
+    },
+    {
+      "id": "shortform_herself",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "herself",
+      "dots": [
+        "125",
+        "15",
+        "1235",
+        "124"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠟",
+      "unicode": "U+281F"
+    },
+    {
+      "id": "shortform_him",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "him",
+      "dots": [
+        "125",
+        "134",
+        "124"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠟",
+      "unicode": "U+281F"
+    },
+    {
+      "id": "shortform_immediate",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "immediate",
+      "dots": [
+        "24",
+        "134",
+        "134"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠏",
+      "unicode": "U+280F"
+    },
+    {
+      "id": "shortform_its",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "its",
+      "dots": [
+        "1346",
+        "234"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠯",
+      "unicode": "U+282F"
+    },
+    {
+      "id": "shortform_itself",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "itself",
+      "dots": [
+        "1346",
+        "124"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠯",
+      "unicode": "U+282F"
+    },
+    {
+      "id": "shortform_letter",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "letter",
+      "dots": [
+        "123",
+        "1235"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠗",
+      "unicode": "U+2817"
+    },
+    {
+      "id": "shortform_little",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "little",
+      "dots": [
+        "123",
+        "123"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠇",
+      "unicode": "U+2807"
+    },
+    {
+      "id": "shortform_much",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "much",
+      "dots": [
+        "134",
+        "14",
+        "125"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠟",
+      "unicode": "U+281F"
+    },
+    {
+      "id": "shortform_must",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "must",
+      "dots": [
+        "134",
+        "234",
+        "2345"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠟",
+      "unicode": "U+281F"
+    },
+    {
+      "id": "shortform_myself",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "much",
+      "dots": [
+        "134",
+        "13456",
+        "124"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠿",
+      "unicode": "U+283F"
+    },
+    {
+      "id": "shortform_necessary",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "necessary",
+      "dots": [
+        "1345",
+        "15",
+        "14"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠝",
+      "unicode": "U+281D"
+    },
+    {
+      "id": "shortform_neither",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "neither",
+      "dots": [
+        "1345",
+        "15",
+        "24"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠟",
+      "unicode": "U+281F"
+    },
+    {
+      "id": "shortform_oneself",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "oneself",
+      "dots": [
+        "135",
+        "1345",
+        "15",
+        "124"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠟",
+      "unicode": "U+281F"
+    },
+    {
+      "id": "shortform_ourselves",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "ourselves",
+      "dots": [
+        "135",
+        "136",
+        "1235",
+        "1236",
+        "234"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠿",
+      "unicode": "U+283F"
+    },
+    {
+      "id": "shortform_paid",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "paid",
+      "dots": [
+        "1234",
+        "145"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠟",
+      "unicode": "U+281F"
+    },
+    {
+      "id": "shortform_perceive",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "perceive",
+      "dots": [
+        "1234",
+        "15",
+        "1235",
+        "14",
+        "1236"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠿",
+      "unicode": "U+283F"
+    },
+    {
+      "id": "shortform_perceiving",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "perceiving",
+      "dots": [
+        "1234",
+        "15",
+        "1235",
+        "14",
+        "1236",
+        "1245"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠿",
+      "unicode": "U+283F"
+    },
+    {
+      "id": "shortform_perhaps",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "perhaps",
+      "dots": [
+        "1234",
+        "15",
+        "1235",
+        "125"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠟",
+      "unicode": "U+281F"
+    },
+    {
+      "id": "shortform_quick",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "quick",
+      "dots": [
+        "12345",
+        "13"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠟",
+      "unicode": "U+281F"
+    },
+    {
+      "id": "shortform_receive",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "receive",
+      "dots": [
+        "1235",
+        "14",
+        "1236"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠿",
+      "unicode": "U+283F"
+    },
+    {
+      "id": "shortform_receive",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "receive",
+      "dots": [
+        "1235",
+        "14",
+        "1236",
+        "1245"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠿",
+      "unicode": "U+283F"
+    },
+    {
+      "id": "shortform_rejoice",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "rejoice",
+      "dots": [
+        "1235",
+        "245",
+        "14"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠟",
+      "unicode": "U+281F"
+    },
+    {
+      "id": "shortform_rejoicing",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "rejoicing",
+      "dots": [
+        "1235",
+        "245",
+        "14",
+        "1245"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠟",
+      "unicode": "U+281F"
+    },
+    {
+      "id": "shortform_said",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "said",
+      "dots": [
+        "234",
+        "145"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠟",
+      "unicode": "U+281F"
+    },
+    {
+      "id": "shortform_should",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "should",
+      "dots": [
+        "234",
+        "125",
+        "145"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠟",
+      "unicode": "U+281F"
+    },
+    {
+      "id": "shortform_such",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "such",
+      "dots": [
+        "234",
+        "14",
+        "145"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠟",
+      "unicode": "U+281F"
+    },
+    {
+      "id": "shortform_themselves",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "themselves",
+      "dots": [
+        "2345",
+        "125",
+        "15",
+        "134",
+        "1236",
+        "234"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠿",
+      "unicode": "U+283F"
+    },
+    {
+      "id": "shortform_thyself",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "thyself",
+      "dots": [
+        "2345",
+        "125",
+        "13456",
+        "124"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠿",
+      "unicode": "U+283F"
+    },
+    {
+      "id": "shortform_today",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "today",
+      "dots": [
+        "2345",
+        "145"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠟",
+      "unicode": "U+281F"
+    },
+    {
+      "id": "shortform_together",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "together",
+      "dots": [
+        "2345",
+        "1245",
+        "1235"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠟",
+      "unicode": "U+281F"
+    },
+    {
+      "id": "shortform_tomorrow",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "tomorrow",
+      "dots": [
+        "2345",
+        "134"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠟",
+      "unicode": "U+281F"
+    },
+    {
+      "id": "shortform_tonight",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "tonight",
+      "dots": [
+        "2345",
+        "1345"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠟",
+      "unicode": "U+281F"
+    },
+    {
+      "id": "shortform_would",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "would",
+      "dots": [
+        "2456",
+        "145"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠻",
+      "unicode": "U+283B"
+    },
+    {
+      "id": "shortform_your",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "your",
+      "dots": [
+        "13456",
+        "1235"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠿",
+      "unicode": "U+283F"
+    },
+    {
+      "id": "shortform_yourself",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "yourself",
+      "dots": [
+        "13456",
+        "1235",
+        "124"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠿",
+      "unicode": "U+283F"
+    },
+    {
+      "id": "shortform_yourselves",
+      "category": "contraction",
+      "subcategory": "word",
+      "print": "yourselves",
+      "dots": [
+        "13456",
+        "1235",
+        "1236",
+        "234"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "word",
+      "tags": [
+        "contraction",
+        "shortform"
+      ],
+      "note": "",
+      "braille": "⠿",
+      "unicode": "U+283F"
+    }
+  ]
+}

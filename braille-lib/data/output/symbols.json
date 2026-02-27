@@ -1,0 +1,659 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "schema_version": "1.0",
+  "system_id": "ueb",
+  "system_name": "Unified English Braille",
+  "version": "2024 rules",
+  "source": "BANA/ICEB official",
+  "locale": "en",
+  "braille_type": "grade1",
+  "cell_size": 6,
+  "generated_at": "2026-02-27T01:38:00.502164+00:00",
+  "entries": [
+    {
+      "id": "symbol_plus",
+      "category": "symbol",
+      "subcategory": "math",
+      "print": "+",
+      "dots": [
+        "5",
+        "235"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "symbol",
+      "tags": [
+        "symbol",
+        "plus",
+        "math"
+      ],
+      "note": "",
+      "braille": "⠖",
+      "unicode": "U+2816"
+    },
+    {
+      "id": "symbol_minus",
+      "category": "symbol",
+      "subcategory": "math",
+      "print": "-",
+      "dots": [
+        "5",
+        "36"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "symbol",
+      "tags": [
+        "symbol",
+        "minus",
+        "math"
+      ],
+      "note": "",
+      "braille": "⠴",
+      "unicode": "U+2834"
+    },
+    {
+      "id": "symbol_multiply",
+      "category": "symbol",
+      "subcategory": "math",
+      "print": "x",
+      "dots": [
+        "5",
+        "236"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "symbol",
+      "tags": [
+        "symbol",
+        "multiply",
+        "math"
+      ],
+      "note": "",
+      "braille": "⠶",
+      "unicode": "U+2836"
+    },
+    {
+      "id": "symbol_division",
+      "category": "symbol",
+      "subcategory": "math",
+      "print": "÷",
+      "dots": [
+        "5",
+        "34"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "symbol",
+      "tags": [
+        "symbol",
+        "division",
+        "math"
+      ],
+      "note": "",
+      "braille": "⠜",
+      "unicode": "U+281C"
+    },
+    {
+      "id": "symbol_dot_operator",
+      "category": "symbol",
+      "subcategory": "math",
+      "print": ".",
+      "dots": [
+        "5",
+        "145"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "symbol",
+      "tags": [
+        "symbol",
+        "dot operator",
+        "math"
+      ],
+      "note": "",
+      "braille": "⠙",
+      "unicode": "U+2819"
+    },
+    {
+      "id": "symbol_equal",
+      "category": "symbol",
+      "subcategory": "math",
+      "print": "=",
+      "dots": [
+        "5",
+        "2356"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "symbol",
+      "tags": [
+        "symbol",
+        "equal",
+        "math"
+      ],
+      "note": "",
+      "braille": "⠶",
+      "unicode": "U+2836"
+    },
+    {
+      "id": "symbol_greater_than_sign",
+      "category": "symbol",
+      "subcategory": "math",
+      "print": ">",
+      "dots": [
+        "4",
+        "345"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "symbol",
+      "tags": [
+        "symbol",
+        "greater than sign",
+        "math"
+      ],
+      "note": "",
+      "braille": "⠜",
+      "unicode": "U+281C"
+    },
+    {
+      "id": "symbol_less_than_sign",
+      "category": "symbol",
+      "subcategory": "math",
+      "print": "<",
+      "dots": [
+        "4",
+        "126"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "symbol",
+      "tags": [
+        "symbol",
+        "less than sign",
+        "math"
+      ],
+      "note": "",
+      "braille": "⠫",
+      "unicode": "U+282B"
+    },
+    {
+      "id": "symbol_dollar",
+      "category": "symbol",
+      "subcategory": "currency",
+      "print": "$",
+      "dots": [
+        "4",
+        "234"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "symbol",
+      "tags": [
+        "symbol",
+        "dollar",
+        "currency"
+      ],
+      "note": "",
+      "braille": "⠎",
+      "unicode": "U+280E"
+    },
+    {
+      "id": "symbol_cent",
+      "category": "symbol",
+      "subcategory": "currency",
+      "print": "¢",
+      "dots": [
+        "4",
+        "14"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "symbol",
+      "tags": [
+        "symbol",
+        "cent",
+        "currency"
+      ],
+      "note": "",
+      "braille": "⠉",
+      "unicode": "U+2809"
+    },
+    {
+      "id": "symbol_euro",
+      "category": "symbol",
+      "subcategory": "currency",
+      "print": "€",
+      "dots": [
+        "4",
+        "15"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "symbol",
+      "tags": [
+        "symbol",
+        "euro",
+        "currency"
+      ],
+      "note": "",
+      "braille": "⠙",
+      "unicode": "U+2819"
+    },
+    {
+      "id": "symbol_pound",
+      "category": "symbol",
+      "subcategory": "currency",
+      "print": "£",
+      "dots": [
+        "4",
+        "123"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "symbol",
+      "tags": [
+        "symbol",
+        "pound",
+        "currency"
+      ],
+      "note": "",
+      "braille": "⠏",
+      "unicode": "U+280F"
+    },
+    {
+      "id": "symbol_yen",
+      "category": "symbol",
+      "subcategory": "currency",
+      "print": "¥",
+      "dots": [
+        "4",
+        "13456"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "symbol",
+      "tags": [
+        "symbol",
+        "yen",
+        "currency"
+      ],
+      "note": "",
+      "braille": "⠽",
+      "unicode": "U+283D"
+    },
+    {
+      "id": "symbol_prime",
+      "category": "symbol",
+      "subcategory": "math",
+      "print": "′",
+      "dots": [
+        "2356"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "symbol",
+      "tags": [
+        "symbol",
+        "prime",
+        "math"
+      ],
+      "note": "",
+      "braille": "⠶",
+      "unicode": "U+2836"
+    },
+    {
+      "id": "symbol_percent",
+      "category": "symbol",
+      "subcategory": "math",
+      "print": "%",
+      "dots": [
+        "46",
+        "356"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "symbol",
+      "tags": [
+        "symbol",
+        "percent",
+        "math"
+      ],
+      "note": "",
+      "braille": "⠼",
+      "unicode": "U+283C"
+    },
+    {
+      "id": "symbol_degree",
+      "category": "symbol",
+      "subcategory": "math",
+      "print": "°",
+      "dots": [
+        "45",
+        "245"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "symbol",
+      "tags": [
+        "symbol",
+        "degree",
+        "math"
+      ],
+      "note": "",
+      "braille": "⠚",
+      "unicode": "U+281A"
+    },
+    {
+      "id": "symbol_angle",
+      "category": "symbol",
+      "subcategory": "math",
+      "print": "∠",
+      "dots": [
+        "456",
+        "246"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "symbol",
+      "tags": [
+        "symbol",
+        "angle",
+        "math"
+      ],
+      "note": "",
+      "braille": "⠺",
+      "unicode": "U+283A"
+    },
+    {
+      "id": "symbol_number",
+      "category": "symbol",
+      "subcategory": "math",
+      "print": "#",
+      "dots": [
+        "456",
+        "1456"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "symbol",
+      "tags": [
+        "symbol",
+        "number",
+        "math"
+      ],
+      "note": "",
+      "braille": "⠹",
+      "unicode": "U+2839"
+    },
+    {
+      "id": "symbol_ampersand",
+      "category": "symbol",
+      "subcategory": "math",
+      "print": "&",
+      "dots": [
+        "4",
+        "12346"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "symbol",
+      "tags": [
+        "symbol",
+        "ampersand",
+        "math"
+      ],
+      "note": "",
+      "braille": "⠯",
+      "unicode": "U+282F"
+    },
+    {
+      "id": "symbol_copyright",
+      "category": "symbol",
+      "subcategory": "math",
+      "print": "©",
+      "dots": [
+        "45",
+        "14"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "symbol",
+      "tags": [
+        "symbol",
+        "copyright",
+        "math"
+      ],
+      "note": "",
+      "braille": "⠙",
+      "unicode": "U+2819"
+    },
+    {
+      "id": "symbol_trademark",
+      "category": "symbol",
+      "subcategory": "math",
+      "print": "™",
+      "dots": [
+        "45",
+        "2345"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "symbol",
+      "tags": [
+        "symbol",
+        "trademark",
+        "math"
+      ],
+      "note": "",
+      "braille": "⠞",
+      "unicode": "U+281E"
+    },
+    {
+      "id": "symbol_bullet",
+      "category": "symbol",
+      "subcategory": "math",
+      "print": "•",
+      "dots": [
+        "456",
+        "256"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "symbol",
+      "tags": [
+        "symbol",
+        "bullet",
+        "math"
+      ],
+      "note": "",
+      "braille": "⠺",
+      "unicode": "U+283A"
+    },
+    {
+      "id": "symbol_at_sign",
+      "category": "symbol",
+      "subcategory": "math",
+      "print": "@",
+      "dots": [
+        "4",
+        "1"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "symbol",
+      "tags": [
+        "symbol",
+        "at_sign",
+        "math"
+      ],
+      "note": "",
+      "braille": "⠉",
+      "unicode": "U+2809"
+    },
+    {
+      "id": "symbol_asterisk",
+      "category": "symbol",
+      "subcategory": "math",
+      "print": "*",
+      "dots": [
+        "5",
+        "35"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "symbol",
+      "tags": [
+        "symbol",
+        "asterisk",
+        "math"
+      ],
+      "note": "",
+      "braille": "⠔",
+      "unicode": "U+2814"
+    },
+    {
+      "id": "symbol_superscript",
+      "category": "symbol",
+      "subcategory": "math",
+      "print": null,
+      "dots": [
+        "35"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "symbol",
+      "tags": [
+        "symbol",
+        "superscript",
+        "math"
+      ],
+      "note": "",
+      "braille": "⠔",
+      "unicode": "U+2814"
+    },
+    {
+      "id": "symbol_subscript",
+      "category": "symbol",
+      "subcategory": "math",
+      "print": null,
+      "dots": [
+        "26"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": false,
+        "priority": 100
+      },
+      "role": "symbol",
+      "tags": [
+        "symbol",
+        "subscript",
+        "math"
+      ],
+      "note": "",
+      "braille": "⠢",
+      "unicode": "U+2822"
+    },
+    {
+      "id": "symbol_dot_locator_for_mention",
+      "category": "symbol",
+      "subcategory": "math",
+      "print": null,
+      "dots": [
+        "46",
+        "123456"
+      ],
+      "context": {
+        "position": "any",
+        "requires_indicator": true,
+        "priority": 100
+      },
+      "role": "symbol",
+      "tags": [
+        "symbol",
+        "dot locator for mention",
+        "math"
+      ],
+      "note": "",
+      "braille": "⠿",
+      "unicode": "U+283F"
+    }
+  ]
+}
