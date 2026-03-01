@@ -181,6 +181,8 @@ function processIndicator(
     targetMode = "kana";
   } else if (entry.tags.includes("grade1") || entry.subcategory === "grade1") {
     targetMode = "grade1";
+  } else if (entry.tags.includes("grade2") || entry.subcategory === "grade2") {
+    targetMode = "grade2";
   } else if (entry.subcategory === "nemeth" || entry.tags.includes("nemeth")) {
     targetMode = "nemeth";
   }

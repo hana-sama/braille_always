@@ -151,6 +151,32 @@ entries:
     tags: ["kana", "custom", "terminator"]
     note: ""
 
+  - id: "indicator_grade2"
+    category: "indicator"
+    subcategory: "grade2"
+    print: null
+    dots: ["56", "13"]
+    context:
+      position: "before"
+      requires_indicator: false
+      priority: 100
+    role: "indicator"
+    tags: ["grade2", "custom", "passage"]
+    note: ""
+
+  - id: "indicator_grade2_terminator"
+    category: "indicator"
+    subcategory: "grade2"
+    print: null
+    dots: ["56", "13", "3"]
+    context:
+      position: "after"
+      requires_indicator: false
+      priority: 100
+    role: "indicator"
+    tags: ["grade2", "custom", "terminator"]
+    note: ""
+
   - id: "indicator_italic_symbol"
     category: "indicator"
     subcategory: "italic"

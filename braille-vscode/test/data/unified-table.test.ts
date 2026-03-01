@@ -290,6 +290,44 @@ describe("buildUnifiedData()", () => {
       expect(data.indicators).to.have.length(1);
       expect(data.indicators[0].targetMode).to.equal("nemeth");
     });
+
+    it("should extract grade2 indicator with correct targetMode", () => {
+      const profile = makeProfile("ueb", "grade1", [
+        makeEntry({
+          id: "indicator_grade2",
+          dots: ["56", "13"],
+          role: "indicator",
+          tags: ["grade2", "custom", "passage"],
+          subcategory: "grade2"
+        })
+      ]);
+
+      const data = buildUnifiedData(new Map([["ueb", [profile]]]));
+      expect(data.indicators).to.have.length(1);
+      expect(data.indicators[0].id).to.equal("indicator_grade2");
+      expect(data.indicators[0].targetMode).to.equal("grade2");
+      expect(data.indicators[0].scope).to.equal("passage");
+      expect(data.indicators[0].action).to.equal("enter");
+      expect(data.indicators[0].dotsKey).to.equal("56|13");
+    });
+
+    it("should recognize grade2 terminator as 'exit' action", () => {
+      const profile = makeProfile("ueb", "grade1", [
+        makeEntry({
+          id: "indicator_grade2_terminator",
+          dots: ["56", "13", "3"],
+          role: "indicator",
+          tags: ["grade2", "custom", "terminator"],
+          subcategory: "grade2"
+        })
+      ]);
+
+      const data = buildUnifiedData(new Map([["ueb", [profile]]]));
+      expect(data.indicators).to.have.length(1);
+      expect(data.indicators[0].action).to.equal("exit");
+      expect(data.indicators[0].targetMode).to.equal("grade2");
+      expect(data.indicators[0].dotsKey).to.equal("56|13|3");
+    });
   });
 
   // ==================================================================
